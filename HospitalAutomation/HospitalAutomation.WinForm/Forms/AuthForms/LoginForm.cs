@@ -16,5 +16,10 @@ namespace HospitalAutomation.WinForm.Forms.AuthForms
         {
             InitializeComponent();
         }
+
+        private void btnLoginFormClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

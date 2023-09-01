@@ -36,6 +36,7 @@
             label2 = new Label();
             txtPassword = new TextBox();
             label3 = new Label();
+            btnLoginFormClose = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -106,11 +107,26 @@
             label3.TabIndex = 4;
             label3.Text = "Şifre :";
             // 
+            // btnLoginFormClose
+            // 
+            btnLoginFormClose.BackColor = Color.Maroon;
+            btnLoginFormClose.FlatAppearance.BorderSize = 0;
+            btnLoginFormClose.FlatStyle = FlatStyle.Flat;
+            btnLoginFormClose.ForeColor = Color.White;
+            btnLoginFormClose.Image = (Image)resources.GetObject("btnLoginFormClose.Image");
+            btnLoginFormClose.Location = new Point(12, 12);
+            btnLoginFormClose.Name = "btnLoginFormClose";
+            btnLoginFormClose.Size = new Size(41, 41);
+            btnLoginFormClose.TabIndex = 5;
+            btnLoginFormClose.UseVisualStyleBackColor = false;
+            btnLoginFormClose.Click += btnLoginFormClose_Click;
+            // 
             // LoginForm
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.White;
             ClientSize = new Size(999, 383);
+            Controls.Add(btnLoginFormClose);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(btnLogin);
@@ -138,5 +154,6 @@
         private Label label2;
         private TextBox txtPassword;
         private Label label3;
+        private Button btnLoginFormClose;
     }
 }
