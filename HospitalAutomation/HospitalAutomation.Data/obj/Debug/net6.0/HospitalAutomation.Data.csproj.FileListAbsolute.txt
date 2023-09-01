@@ -1,0 +1,30 @@
+C:\Users\muratacar\Desktop\Projeler\HospitalAutomation\HospitalAutomation.Data\bin\Debug\net6.0\HospitalAutomation.Data.deps.json
+C:\Users\muratacar\Desktop\Projeler\HospitalAutomation\HospitalAutomation.Data\bin\Debug\net6.0\HospitalAutomation.Data.dll
+C:\Users\muratacar\Desktop\Projeler\HospitalAutomation\HospitalAutomation.Data\bin\Debug\net6.0\HospitalAutomation.Data.pdb
+C:\Users\muratacar\Desktop\Projeler\HospitalAutomation\HospitalAutomation.Data\bin\Debug\net6.0\HospitalAutomation.Entities.dll
+C:\Users\muratacar\Desktop\Projeler\HospitalAutomation\HospitalAutomation.Data\bin\Debug\net6.0\HospitalAutomation.Entities.pdb
+C:\Users\muratacar\Desktop\Projeler\HospitalAutomation\HospitalAutomation.Data\obj\Debug\net6.0\HospitalAutomation.Data.csproj.AssemblyReference.cache
+C:\Users\muratacar\Desktop\Projeler\HospitalAutomation\HospitalAutomation.Data\obj\Debug\net6.0\HospitalAutomation.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muratacar\Desktop\Projeler\HospitalAutomation\HospitalAutomation.Data\obj\Debug\net6.0\HospitalAutomation.Data.AssemblyInfoInputs.cache
+C:\Users\muratacar\Desktop\Projeler\HospitalAutomation\HospitalAutomation.Data\obj\Debug\net6.0\HospitalAutomation.Data.AssemblyInfo.cs
+C:\Users\muratacar\Desktop\Projeler\HospitalAutomation\HospitalAutomation.Data\obj\Debug\net6.0\HospitalAutomation.Data.csproj.CoreCompileInputs.cache
+C:\Users\muratacar\Desktop\Projeler\HospitalAutomation\HospitalAutomation.Data\obj\Debug\net6.0\HospitalAutomation.Data.csproj.CopyComplete
+C:\Users\muratacar\Desktop\Projeler\HospitalAutomation\HospitalAutomation.Data\obj\Debug\net6.0\HospitalAutomation.Data.dll
+C:\Users\muratacar\Desktop\Projeler\HospitalAutomation\HospitalAutomation.Data\obj\Debug\net6.0\refint\HospitalAutomation.Data.dll
+C:\Users\muratacar\Desktop\Projeler\HospitalAutomation\HospitalAutomation.Data\obj\Debug\net6.0\HospitalAutomation.Data.pdb
+C:\Users\muratacar\Desktop\Projeler\HospitalAutomation\HospitalAutomation.Data\obj\Debug\net6.0\ref\HospitalAutomation.Data.dll
+C:\Users\Samet Polat\Downloads\HospitalAutomation\HospitalAutomation\HospitalAutomation.Data\bin\Debug\net6.0\HospitalAutomation.Data.deps.json
+C:\Users\Samet Polat\Downloads\HospitalAutomation\HospitalAutomation\HospitalAutomation.Data\bin\Debug\net6.0\HospitalAutomation.Data.dll
+C:\Users\Samet Polat\Downloads\HospitalAutomation\HospitalAutomation\HospitalAutomation.Data\bin\Debug\net6.0\HospitalAutomation.Data.pdb
+C:\Users\Samet Polat\Downloads\HospitalAutomation\HospitalAutomation\HospitalAutomation.Data\bin\Debug\net6.0\HospitalAutomation.Entities.dll
+C:\Users\Samet Polat\Downloads\HospitalAutomation\HospitalAutomation\HospitalAutomation.Data\bin\Debug\net6.0\HospitalAutomation.Entities.pdb
+C:\Users\Samet Polat\Downloads\HospitalAutomation\HospitalAutomation\HospitalAutomation.Data\obj\Debug\net6.0\HospitalAutomation.Data.csproj.AssemblyReference.cache
+C:\Users\Samet Polat\Downloads\HospitalAutomation\HospitalAutomation\HospitalAutomation.Data\obj\Debug\net6.0\HospitalAutomation.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Samet Polat\Downloads\HospitalAutomation\HospitalAutomation\HospitalAutomation.Data\obj\Debug\net6.0\HospitalAutomation.Data.AssemblyInfoInputs.cache
+C:\Users\Samet Polat\Downloads\HospitalAutomation\HospitalAutomation\HospitalAutomation.Data\obj\Debug\net6.0\HospitalAutomation.Data.AssemblyInfo.cs
+C:\Users\Samet Polat\Downloads\HospitalAutomation\HospitalAutomation\HospitalAutomation.Data\obj\Debug\net6.0\HospitalAutomation.Data.csproj.CoreCompileInputs.cache
+C:\Users\Samet Polat\Downloads\HospitalAutomation\HospitalAutomation\HospitalAutomation.Data\obj\Debug\net6.0\HospitalAutomation.Data.csproj.CopyComplete
+C:\Users\Samet Polat\Downloads\HospitalAutomation\HospitalAutomation\HospitalAutomation.Data\obj\Debug\net6.0\HospitalAutomation.Data.dll
+C:\Users\Samet Polat\Downloads\HospitalAutomation\HospitalAutomation\HospitalAutomation.Data\obj\Debug\net6.0\refint\HospitalAutomation.Data.dll
+C:\Users\Samet Polat\Downloads\HospitalAutomation\HospitalAutomation\HospitalAutomation.Data\obj\Debug\net6.0\HospitalAutomation.Data.pdb
+C:\Users\Samet Polat\Downloads\HospitalAutomation\HospitalAutomation\HospitalAutomation.Data\obj\Debug\net6.0\ref\HospitalAutomation.Data.dll

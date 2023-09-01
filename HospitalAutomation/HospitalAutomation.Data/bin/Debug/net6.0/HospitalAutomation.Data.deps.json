@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HospitalAutomation.Data/1.0.0": {
+        "dependencies": {
+          "HospitalAutomation.Entities": "1.0.0"
+        },
+        "runtime": {
+          "HospitalAutomation.Data.dll": {}
+        }
+      },
+      "HospitalAutomation.Entities/1.0.0": {
+        "runtime": {
+          "HospitalAutomation.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HospitalAutomation.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HospitalAutomation.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

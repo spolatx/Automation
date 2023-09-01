@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HospitalAutomation.WinForm/1.0.0": {
+        "dependencies": {
+          "HospitalAutomation.Business": "1.0.0"
+        },
+        "runtime": {
+          "HospitalAutomation.WinForm.dll": {}
+        }
+      },
+      "HospitalAutomation.Business/1.0.0": {
+        "dependencies": {
+          "HospitalAutomation.Data": "1.0.0",
+          "HospitalAutomation.Dtos": "1.0.0"
+        },
+        "runtime": {
+          "HospitalAutomation.Business.dll": {}
+        }
+      },
+      "HospitalAutomation.Data/1.0.0": {
+        "dependencies": {
+          "HospitalAutomation.Entities": "1.0.0"
+        },
+        "runtime": {
+          "HospitalAutomation.Data.dll": {}
+        }
+      },
+      "HospitalAutomation.Dtos/1.0.0": {
+        "runtime": {
+          "HospitalAutomation.Dtos.dll": {}
+        }
+      },
+      "HospitalAutomation.Entities/1.0.0": {
+        "runtime": {
+          "HospitalAutomation.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HospitalAutomation.WinForm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HospitalAutomation.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HospitalAutomation.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HospitalAutomation.Dtos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HospitalAutomation.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
