@@ -9,19 +9,19 @@ namespace HospitalAutomation.Entities
     public class Personeller
     {
         public int Id { get; set; }
-        public int sicilNo { get; set; }
-        public string ad { get; set; }
-        public string soyad { get; set; }
-        public int diplomaNo { get; set; }
-        public string adres { get; set; }
-        public int cinsiyetId { get; set; }
-        public int telNo { get; set; }
-        public int telNo2 { get; set; }
-        public string eMail { get; set; }
-        public string dogumTarihi { get; set; }
-        public string dogumYeri  { get; set; }
-        public int unvanId { get; set; }
-        public int klinikId { get; set; }
-        public int hastaneId { get; set; }
+        public int SicilNo { get; set; }
+        public string Ad { get; set; }
+        public string Soyad { get; set; }
+        public int DiplomaNo { get; set; }
+        public string Adres { get; set; }
+        public int CinsiyetId { get; set; }
+        public int TelNo { get; set; }
+        public int TelNo2 { get; set; }
+        public string EMail { get; set; }
+        public string DogumTarihi { get; set; }
+        public string DogumYeri  { get; set; }
+        public int UnvanId { get; set; }
+        public int KlinikId { get; set; }
+        public int HastaneId { get; set; }
     }
 }

@@ -10,18 +10,18 @@ namespace HospitalAutomation.Entities
     {
         public int Id { get; set; }
 
-        public string gelisTarihi { get; set; }
+        public string GelisTarihi { get; set; }
 
-        public int sikayet { get; set; }
+        public int Sikayet { get; set; }
 
-        public int durum { get; set; }
+        public int Durum { get; set; }
 
-        public int cikisTarihi { get; set; }
+        public int CikisTarihi { get; set; }
 
-        public int hastaId { get; set; }
+        public int HastaId { get; set; }
 
-        public int doktorId { get; set; }
-        public int poliklinikId { get; set; }
-        public int randevuId { get; set; }
+        public int DoktorId { get; set; }
+        public int PoliklinikId { get; set; }
+        public int RandevuId { get; set; }
     }
 }

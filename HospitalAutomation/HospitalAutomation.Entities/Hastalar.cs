@@ -10,30 +10,30 @@ namespace HospitalAutomation.Entities
     {
         public int Id { get; set; }
 
-        public string hastaAd { get; set; }
+        public string HastaAd { get; set; }
 
-        public string hastaSoyad { get; set; }
+        public string HastaSoyad { get; set; }
 
-        public int sicilNo { get; set; }
+        public int SicilNo { get; set; }
 
-        public int cepTel { get; set; }
+        public int CepTel { get; set; }
 
-        public int isTel { get; set; }
+        public int IsTel { get; set; }
 
-        public int tcKimlikNo { get; set; }
+        public int TcKimlikNo { get; set; }
 
-        public string dogumTarihi { get; set; }
+        public string DogumTarihi { get; set; }
 
-        public int cinsiyet { get; set; }
+        public int Cinsiyet { get; set; }
 
         public string Meslek { get; set; }
 
-        public int kanGrubuId { get; set; }
+        public int KanGrubuId { get; set; }
 
-        public int sehirId { get; set; }
+        public int SehirId { get; set; }
 
-        public int ilceId { get; set; }
+        public int IlceId { get; set; }
 
-        public int dogumYeriId { get; set; }
+        public int DogumYeriId { get; set; }
     }
 }

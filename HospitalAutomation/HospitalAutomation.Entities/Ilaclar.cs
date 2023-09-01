@@ -8,9 +8,9 @@ namespace HospitalAutomation.Entities
 {
     public class Ilaclar
     {
-        public int id { get; set; }
-        public string ilacAdi { get; set; }
-        public string icerikBilgi { get; set; }
-        public int fiyat { get; set; }
+        public int Id { get; set; }
+        public string IlacAdi { get; set; }
+        public string IcerikBilgi { get; set; }
+        public int Fiyat { get; set; }
     }
 }

@@ -8,12 +8,12 @@ namespace HospitalAutomation.Entities
 {
     public class Randevular
     {
-        public int id { get; set; }
-        public int tarih { get; set; }
-        public int saat { get; set; }
-        public int status { get; set; }
-        public int hastaId { get; set; }
-        public int doktorId { get; set; }
-        public int poliklinikId { get; set; }
+        public int Id { get; set; }
+        public int Tarih { get; set; }
+        public int Saat { get; set; }
+        public int Status { get; set; }
+        public int HastaId { get; set; }
+        public int DoktorId { get; set; }
+        public int PoliklinikId { get; set; }
     }
 }

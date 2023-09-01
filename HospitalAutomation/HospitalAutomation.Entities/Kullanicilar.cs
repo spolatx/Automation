@@ -8,10 +8,10 @@ namespace HospitalAutomation.Entities
 {
     public class Kullanicilar
     {
-        public int id { get; set; }
-        public string kullaniciAdi { get; set; }
-        public string sifre { get; set; }
-        public string erisimler { get; set; }
-        public int personelId { get; set; }
+        public int Id { get; set; }
+        public string KullaniciAdi { get; set; }
+        public string Sifre { get; set; }
+        public string Erisimler { get; set; }
+        public int PersonelId { get; set; }
     }
 }

@@ -8,9 +8,9 @@ namespace HospitalAutomation.Entities
 {
     public class Poliklinikler
     {
-        public int id { get; set; }
-        public string poliklinikAdi { get; set; }
-        public int randevuSure { get; set; }
-        public int hastaneId { get; set; }
+        public int Id { get; set; }
+        public string PoliklinikAdi { get; set; }
+        public int RandevuSure { get; set; }
+        public int HastaneId { get; set; }
     }
 }

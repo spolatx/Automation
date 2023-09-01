@@ -8,13 +8,12 @@ namespace HospitalAutomation.Entities
 {
     public class TahlilSonuclar
     {
-        public int id { get; set; }
-        public string aciklama { get; set; }
-        public string durum { get; set; }
-        public string sonuc { get; set; }
-
-        public int miktar { get; set; }
-        public int tahlilId { get; set; }
+        public int Id { get; set; }
+        public string Aciklama { get; set; }
+        public string Durum { get; set; }
+        public string Sonuc { get; set; }
+        public int Miktar { get; set; }
+        public int TahlilId { get; set; }
 
     }
 }

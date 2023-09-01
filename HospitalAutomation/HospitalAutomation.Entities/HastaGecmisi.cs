@@ -8,20 +8,20 @@ namespace HospitalAutomation.Entities
 {
     public class HastaGecmisi
     {
-        public int gecmisId { get; set; }
+        public int GecmisId { get; set; }
 
-        public string tarih { get; set; }
+        public string Tarih { get; set; }
 
-        public string aciklama { get; set; }
+        public string Aciklama { get; set; }
 
-        public int surekliKullanilanIlaclar { get; set; }
+        public int SurekliKullanilanIlaclar { get; set; }
 
-        public int gecirdigiHastaliklar { get; set; }
+        public int GecirdigiHastaliklar { get; set; }
 
-        public int gecirdigiAmeliyatlar { get; set; }
+        public int GecirdigiAmeliyatlar { get; set; }
 
-        public int alerjiler { get; set; }
+        public int Alerjiler { get; set; }
 
-        public int hastaId { get; set; }
+        public int HastaId { get; set; }
     }
 }
