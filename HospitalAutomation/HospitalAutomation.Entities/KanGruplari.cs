@@ -8,7 +8,7 @@ namespace HospitalAutomation.Entities
 {
     public class KanGruplari
     {
-        public int id { get; set; }
-        public string kanGrubuAdi { get; set; }
+        public int Id { get; set; }
+        public string KanGrubuAdi { get; set; }
     }
 }

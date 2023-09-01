@@ -10,9 +10,8 @@ namespace HospitalAutomation.Entities
     public class Muayeneler
     {
         public int Id { get; set; }
-        public string tarih { get; set; }
-
-        public int hastaKabulId { get; set; }
+        public string Tarih { get; set; }
+        public int HastaKabulId { get; set; }
 
     }
 }

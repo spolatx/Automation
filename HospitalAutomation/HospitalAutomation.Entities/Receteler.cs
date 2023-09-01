@@ -8,10 +8,10 @@ namespace HospitalAutomation.Entities
 {
     public class Receteler
     {
-        public int id { get; set; }
-        public int tarih { get; set; }
-        public int kurumId { get; set; }
-        public int doktorId { get; set; }
-        public int hastaId { get; set; }
+        public int Id { get; set; }
+        public int Tarih { get; set; }
+        public int KurumId { get; set; }
+        public int DoktorId { get; set; }
+        public int HastaId { get; set; }
     }
 }
