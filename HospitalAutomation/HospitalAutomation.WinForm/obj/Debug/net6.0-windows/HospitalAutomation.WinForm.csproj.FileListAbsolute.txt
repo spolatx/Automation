@@ -76,3 +76,4 @@ C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomat
 C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\HospitalAutomation.WinForm.pdb
 C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\HospitalAutomation.WinForm.genruntimeconfig.cache
 C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\ref\HospitalAutomation.WinForm.dll
+C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\HospitalAutomation.WinForm.Properties.Resources.resources
