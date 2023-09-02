@@ -16,18 +16,21 @@ namespace HospitalAutomation.WinForm.Forms.HastaKabulForms
 
     public partial class HastaKabulForm : Form
     {
+        private readonly IKanGrubuService kanGrubuService;
         private readonly IGenderService genderService;
         private GenderListDto selectedGender;
         public HastaKabulForm()
         {
             var dependencyContainer = new BusinessServiceRegistration();
             genderService = dependencyContainer.GetGenderServiceInstance();
+            kanGrubuService = dependencyContainer.GetKanGrubuServiceInstance();
             InitializeComponent();
         }
 
         private void HastaKabulForm_Load(object sender, EventArgs e)
         {
             LoadGender();
+            LoadKanGrubu();
         }
 
         private void btnHastaKabulClose_Click(object sender, EventArgs e)
@@ -65,5 +68,17 @@ namespace HospitalAutomation.WinForm.Forms.HastaKabulForms
             cmbHastaCinsiyet.DisplayMember = "Aciklama";
             cmbHastaCinsiyet.ValueMember = "Id";
         }
+        private void LoadKanGrubu() 
+        {
+            var kanGrubuList = kanGrubuService.GetKanGrubuList();
+            cmbHastaKanGrubu.DataSource = null;
+            cmbHastaKanGrubu.DataSource = kanGrubuList;
+            cmbHastaKanGrubu.DisplayMember = "KanGrubuAdi";
+            cmbHastaKanGrubu.ValueMember = "ID";
+        }
+
+       
+
+       
     }
 }

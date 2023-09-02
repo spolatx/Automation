@@ -14,7 +14,7 @@ namespace HospitalAutomation.Data
         ServiceProvider serviceProvider;
         public DataServiceRegistration()
         {
-            serviceProvider = new ServiceCollection().AddScoped<IGenderRepository, GenderRepository>()
+            serviceProvider = new ServiceCollection().AddScoped<IGenderRepository, GenderRepository>().AddScoped<IKanGrubuRepository,KanGrubuRepository>()
                .BuildServiceProvider();
         }
         // Microsoft  
@@ -24,6 +24,10 @@ namespace HospitalAutomation.Data
         public IGenderRepository GetGenderRepositoryInstance()
         {
             return serviceProvider.GetRequiredService<IGenderRepository>();
+        }
+        public IKanGrubuRepository GetKanGrubuRepositoryInstance()
+        {
+            return serviceProvider.GetRequiredService<IKanGrubuRepository>();
         }
 
     }

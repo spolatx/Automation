@@ -580,25 +580,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\muratacar\\.nuget\\packages\\": {}
+    "C:\\Users\\Samet Polat\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\muratacar\\Desktop\\hastane\\2Eylul\\Automation\\HospitalAutomation\\HospitalAutomation.Data\\HospitalAutomation.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Samet Polat\\Desktop\\Yeni klasör (3)\\Automation\\HospitalAutomation\\HospitalAutomation.Data\\HospitalAutomation.Data.csproj",
       "projectName": "HospitalAutomation.Data",
-      "projectPath": "C:\\Users\\muratacar\\Desktop\\hastane\\2Eylul\\Automation\\HospitalAutomation\\HospitalAutomation.Data\\HospitalAutomation.Data.csproj",
-      "packagesPath": "C:\\Users\\muratacar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\muratacar\\Desktop\\hastane\\2Eylul\\Automation\\HospitalAutomation\\HospitalAutomation.Data\\obj\\",
+      "projectPath": "C:\\Users\\Samet Polat\\Desktop\\Yeni klasör (3)\\Automation\\HospitalAutomation\\HospitalAutomation.Data\\HospitalAutomation.Data.csproj",
+      "packagesPath": "C:\\Users\\Samet Polat\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Samet Polat\\Desktop\\Yeni klasör (3)\\Automation\\HospitalAutomation\\HospitalAutomation.Data\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\muratacar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Samet Polat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -606,8 +613,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\muratacar\\Desktop\\hastane\\2Eylul\\Automation\\HospitalAutomation\\HospitalAutomation.Entities\\HospitalAutomation.Entities.csproj": {
-              "projectPath": "C:\\Users\\muratacar\\Desktop\\hastane\\2Eylul\\Automation\\HospitalAutomation\\HospitalAutomation.Entities\\HospitalAutomation.Entities.csproj"
+            "C:\\Users\\Samet Polat\\Desktop\\Yeni klasör (3)\\Automation\\HospitalAutomation\\HospitalAutomation.Entities\\HospitalAutomation.Entities.csproj": {
+              "projectPath": "C:\\Users\\Samet Polat\\Desktop\\Yeni klasör (3)\\Automation\\HospitalAutomation\\HospitalAutomation.Entities\\HospitalAutomation.Entities.csproj"
             }
           }
         }
@@ -647,7 +654,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
