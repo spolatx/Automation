@@ -26,5 +26,7 @@ namespace HospitalAutomation.WinForm.Forms.DoktorForms
         {
             this.Dispose();
         }
+
+
     }
 }

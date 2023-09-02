@@ -73,6 +73,7 @@
             dgvIstenilenTestler.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvIstenilenTestler.Location = new Point(12, 61);
             dgvIstenilenTestler.Name = "dgvIstenilenTestler";
+            dgvIstenilenTestler.RowHeadersWidth = 51;
             dgvIstenilenTestler.RowTemplate.Height = 25;
             dgvIstenilenTestler.Size = new Size(583, 104);
             dgvIstenilenTestler.TabIndex = 70;
@@ -83,15 +84,15 @@
             txtTahlilSecilenTest.Mask = "00000000000";
             txtTahlilSecilenTest.Name = "txtTahlilSecilenTest";
             txtTahlilSecilenTest.ReadOnly = true;
-            txtTahlilSecilenTest.Size = new Size(277, 27);
+            txtTahlilSecilenTest.Size = new Size(277, 32);
             txtTahlilSecilenTest.TabIndex = 99;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(636, 64);
+            label4.Location = new Point(611, 64);
             label4.Name = "label4";
-            label4.Size = new Size(107, 21);
+            label4.Size = new Size(132, 23);
             label4.TabIndex = 100;
             label4.Text = "Seçilen Test :";
             // 
@@ -113,9 +114,9 @@
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(632, 97);
+            label11.Location = new Point(608, 97);
             label11.Name = "label11";
-            label11.Size = new Size(111, 21);
+            label11.Size = new Size(135, 23);
             label11.TabIndex = 102;
             label11.Text = "Test Sonucu :";
             // 
