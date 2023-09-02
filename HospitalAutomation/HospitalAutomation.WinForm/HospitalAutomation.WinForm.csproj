@@ -27,4 +27,10 @@
     </EmbeddedResource>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Forms\DoktorForms\" />
+    <Folder Include="Forms\HastaForms\" />
+    <Folder Include="Forms\YoneticiForms\" />
+  </ItemGroup>
+
 </Project>

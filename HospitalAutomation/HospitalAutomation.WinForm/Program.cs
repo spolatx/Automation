@@ -1,4 +1,5 @@
 using HospitalAutomation.WinForm.Forms.AuthForms;
+using HospitalAutomation.WinForm.Forms.HastaKabulForms;
 
 namespace HospitalAutomation.WinForm
 {
@@ -13,7 +14,7 @@ namespace HospitalAutomation.WinForm
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new NavigationForm());
+            Application.Run(new HastaKabulForm());
         }
     }
 }
