@@ -8,7 +8,7 @@ namespace HospitalAutomation.Entities
 {
     public class Cinsiyet
     {
-        public int id { get; set; }
-        public string aciklama { get; set; }
+        public int Id { get; set; }
+        public string Aciklama { get; set; }
     }
 }

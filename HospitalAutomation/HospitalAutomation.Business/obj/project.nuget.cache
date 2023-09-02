@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "gbNPcNHcZxSvbqIt4uQWR+mcLhHmHReopJ6rmvFmqAup3RSAbJIEX73XQBwK46hhWtpH066DIBh/mqCJh/zBmw==",
+  "dgSpecHash": "rmGSV7QNMCv9mgwM5jrnslsWmYhRxah+7kdIc+8jdSjCDDHhg8lJb9l/Hnjvi/rB55fg8RXHijbyBHITMVNQYQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Samet Polat\\Desktop\\Yeni klasör (3)\\Automation\\HospitalAutomation\\HospitalAutomation.Business\\HospitalAutomation.Business.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Samet Polat\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\Samet Polat\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Samet Polat\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Samet Polat\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Samet Polat\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",

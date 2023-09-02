@@ -7,13 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HospitalAutomation.Data\HospitalAutomation.Data.csproj" />
-    <ProjectReference Include="..\HospitalAutomation.Dtos\HospitalAutomation.Dtos.csproj" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\" />
-    <Folder Include="Managers\" />
+    <ProjectReference Include="..\HospitalAutomation.Data\HospitalAutomation.Data.csproj" />
+    <ProjectReference Include="..\HospitalAutomation.Dtos\HospitalAutomation.Dtos.csproj" />
   </ItemGroup>
 
 </Project>
