@@ -4,5 +4,8 @@
     <Compile Update="Forms\AuthForms\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\AuthForms\NavigationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

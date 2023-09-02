@@ -30,13 +30,15 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             pictureBox1 = new PictureBox();
-            label1 = new Label();
+            lblGirisBilgisi = new Label();
             txtUsername = new TextBox();
             btnLogin = new Button();
             label2 = new Label();
             txtPassword = new TextBox();
             label3 = new Label();
             btnLoginFormClose = new Button();
+            lblinfo = new Label();
+            btnLoginFormBack = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -51,15 +53,15 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
-            // label1
+            // lblGirisBilgisi
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Century Gothic", 21.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(97, 79);
-            label1.Name = "label1";
-            label1.Size = new Size(183, 36);
-            label1.TabIndex = 1;
-            label1.Text = "Giriş Yapınız";
+            lblGirisBilgisi.AutoSize = true;
+            lblGirisBilgisi.Font = new Font("Century Gothic", 21.75F, FontStyle.Bold, GraphicsUnit.Point);
+            lblGirisBilgisi.Location = new Point(97, 79);
+            lblGirisBilgisi.Name = "lblGirisBilgisi";
+            lblGirisBilgisi.Size = new Size(183, 36);
+            lblGirisBilgisi.TabIndex = 1;
+            lblGirisBilgisi.Text = "Giriş Yapınız";
             // 
             // txtUsername
             // 
@@ -75,7 +77,7 @@
             btnLogin.FlatStyle = FlatStyle.Flat;
             btnLogin.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnLogin.ForeColor = Color.White;
-            btnLogin.Location = new Point(339, 246);
+            btnLogin.Location = new Point(339, 265);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(152, 39);
             btnLogin.TabIndex = 3;
@@ -97,6 +99,7 @@
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(277, 27);
             txtPassword.TabIndex = 1;
+            txtPassword.UseSystemPasswordChar = true;
             // 
             // label3
             // 
@@ -109,33 +112,61 @@
             // 
             // btnLoginFormClose
             // 
-            btnLoginFormClose.BackColor = Color.Maroon;
+            btnLoginFormClose.BackColor = Color.Transparent;
             btnLoginFormClose.FlatAppearance.BorderSize = 0;
             btnLoginFormClose.FlatStyle = FlatStyle.Flat;
             btnLoginFormClose.ForeColor = Color.White;
             btnLoginFormClose.Image = (Image)resources.GetObject("btnLoginFormClose.Image");
-            btnLoginFormClose.Location = new Point(12, 12);
+            btnLoginFormClose.Location = new Point(583, 12);
             btnLoginFormClose.Name = "btnLoginFormClose";
-            btnLoginFormClose.Size = new Size(41, 41);
+            btnLoginFormClose.Size = new Size(30, 30);
             btnLoginFormClose.TabIndex = 5;
             btnLoginFormClose.UseVisualStyleBackColor = false;
             btnLoginFormClose.Click += btnLoginFormClose_Click;
+            // 
+            // lblinfo
+            // 
+            lblinfo.AutoSize = true;
+            lblinfo.ForeColor = Color.Red;
+            lblinfo.Location = new Point(214, 233);
+            lblinfo.Name = "lblinfo";
+            lblinfo.Size = new Size(172, 21);
+            lblinfo.TabIndex = 6;
+            lblinfo.Text = "Kullanıcı Bilgilendirme";
+            lblinfo.Visible = false;
+            // 
+            // btnLoginFormBack
+            // 
+            btnLoginFormBack.BackColor = Color.Transparent;
+            btnLoginFormBack.FlatAppearance.BorderSize = 0;
+            btnLoginFormBack.FlatStyle = FlatStyle.Flat;
+            btnLoginFormBack.ForeColor = Color.White;
+            btnLoginFormBack.Image = (Image)resources.GetObject("btnLoginFormBack.Image");
+            btnLoginFormBack.Location = new Point(12, 12);
+            btnLoginFormBack.Name = "btnLoginFormBack";
+            btnLoginFormBack.Size = new Size(30, 30);
+            btnLoginFormBack.TabIndex = 4;
+            btnLoginFormBack.UseVisualStyleBackColor = false;
+            btnLoginFormBack.Click += btnLoginFormBack_Click;
             // 
             // LoginForm
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.White;
             ClientSize = new Size(999, 383);
+            Controls.Add(btnLoginFormBack);
+            Controls.Add(lblinfo);
             Controls.Add(btnLoginFormClose);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(btnLogin);
             Controls.Add(txtPassword);
             Controls.Add(txtUsername);
-            Controls.Add(label1);
+            Controls.Add(lblGirisBilgisi);
             Controls.Add(pictureBox1);
             Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(4);
             Name = "LoginForm";
             StartPosition = FormStartPosition.CenterScreen;
@@ -148,12 +179,14 @@
         #endregion
 
         private PictureBox pictureBox1;
-        private Label label1;
+        private Label lblGirisBilgisi;
         private TextBox txtUsername;
         private Button btnLogin;
         private Label label2;
         private TextBox txtPassword;
         private Label label3;
         private Button btnLoginFormClose;
+        private Label lblinfo;
+        private Button btnLoginFormBack;
     }
 }
