@@ -46,5 +46,11 @@ namespace HospitalAutomation.WinForm.Forms.AuthForms
             LoginForm loginForm = new LoginForm((sender as Button).Text);
             loginForm.ShowDialog();
         }
+
+        private void btnLaboratuvar_Click(object sender, EventArgs e)
+        {
+            LoginForm loginForm = new LoginForm((sender as Button).Text);
+            loginForm.ShowDialog();
+        }
     }
 }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace HospitalAutomation.Data
 {
-    internal class DataServiceRegistration
+    public class DataServiceRegistration
     {
         ServiceProvider serviceProvider;
         public DataServiceRegistration()

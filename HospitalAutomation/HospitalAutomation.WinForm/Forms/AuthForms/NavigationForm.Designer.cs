@@ -36,6 +36,7 @@
             btnNavigationClose = new Button();
             label1 = new Label();
             label2 = new Label();
+            btnLaboratuvar = new Button();
             SuspendLayout();
             // 
             // btnYonetici
@@ -47,7 +48,7 @@
             btnYonetici.ForeColor = Color.White;
             btnYonetici.Image = (Image)resources.GetObject("btnYonetici.Image");
             btnYonetici.ImageAlign = ContentAlignment.TopCenter;
-            btnYonetici.Location = new Point(371, 104);
+            btnYonetici.Location = new Point(300, 104);
             btnYonetici.Name = "btnYonetici";
             btnYonetici.Size = new Size(128, 80);
             btnYonetici.TabIndex = 2;
@@ -65,7 +66,7 @@
             btnDoktor.ForeColor = Color.White;
             btnDoktor.Image = (Image)resources.GetObject("btnDoktor.Image");
             btnDoktor.ImageAlign = ContentAlignment.TopCenter;
-            btnDoktor.Location = new Point(237, 104);
+            btnDoktor.Location = new Point(166, 104);
             btnDoktor.Name = "btnDoktor";
             btnDoktor.Size = new Size(128, 80);
             btnDoktor.TabIndex = 1;
@@ -83,7 +84,7 @@
             btnHastaKabul.ForeColor = Color.White;
             btnHastaKabul.Image = (Image)resources.GetObject("btnHastaKabul.Image");
             btnHastaKabul.ImageAlign = ContentAlignment.TopCenter;
-            btnHastaKabul.Location = new Point(505, 104);
+            btnHastaKabul.Location = new Point(434, 104);
             btnHastaKabul.Name = "btnHastaKabul";
             btnHastaKabul.Size = new Size(128, 80);
             btnHastaKabul.TabIndex = 3;
@@ -101,7 +102,7 @@
             btnHasta.ForeColor = Color.White;
             btnHasta.Image = (Image)resources.GetObject("btnHasta.Image");
             btnHasta.ImageAlign = ContentAlignment.TopCenter;
-            btnHasta.Location = new Point(103, 104);
+            btnHasta.Location = new Point(32, 104);
             btnHasta.Name = "btnHasta";
             btnHasta.Size = new Size(128, 80);
             btnHasta.TabIndex = 0;
@@ -143,11 +144,30 @@
             label2.TabIndex = 14;
             label2.Text = "Yapmak istediğiniz işlemi seçiniz";
             // 
+            // btnLaboratuvar
+            // 
+            btnLaboratuvar.BackColor = Color.Maroon;
+            btnLaboratuvar.FlatAppearance.BorderSize = 0;
+            btnLaboratuvar.FlatStyle = FlatStyle.Flat;
+            btnLaboratuvar.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnLaboratuvar.ForeColor = Color.White;
+            btnLaboratuvar.Image = (Image)resources.GetObject("btnLaboratuvar.Image");
+            btnLaboratuvar.ImageAlign = ContentAlignment.TopCenter;
+            btnLaboratuvar.Location = new Point(568, 104);
+            btnLaboratuvar.Name = "btnLaboratuvar";
+            btnLaboratuvar.Size = new Size(128, 80);
+            btnLaboratuvar.TabIndex = 16;
+            btnLaboratuvar.Text = "Laboratuvar";
+            btnLaboratuvar.TextAlign = ContentAlignment.BottomCenter;
+            btnLaboratuvar.UseVisualStyleBackColor = false;
+            btnLaboratuvar.Click += btnLaboratuvar_Click;
+            // 
             // NavigationForm
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.White;
             ClientSize = new Size(722, 219);
+            Controls.Add(btnLaboratuvar);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(btnNavigationClose);
@@ -174,5 +194,6 @@
         private Button btnNavigationClose;
         private Label label1;
         private Label label2;
+        private Button btnLaboratuvar;
     }
 }
