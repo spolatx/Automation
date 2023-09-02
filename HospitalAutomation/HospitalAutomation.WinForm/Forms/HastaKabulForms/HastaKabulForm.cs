@@ -32,12 +32,7 @@ namespace HospitalAutomation.WinForm.Forms.HastaKabulForms
 
         private void btnHastaKabulClose_Click(object sender, EventArgs e)
         {
-            Application.Exit();
-        }
-
-        private void btnHastaKabulBack_Click(object sender, EventArgs e)
-        {
-            this.Close();
+            this.Dispose();
         }
 
         private void btnHastaKayit_Click(object sender, EventArgs e)

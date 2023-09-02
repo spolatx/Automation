@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HastaKabulForm));
-            btnHastaKabulBack = new Button();
             btnHastaKabulClose = new Button();
             label1 = new Label();
             btnHastaTcSorgula = new Button();
@@ -68,20 +67,6 @@
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
-            // btnHastaKabulBack
-            // 
-            btnHastaKabulBack.BackColor = Color.Transparent;
-            btnHastaKabulBack.FlatAppearance.BorderSize = 0;
-            btnHastaKabulBack.FlatStyle = FlatStyle.Flat;
-            btnHastaKabulBack.ForeColor = Color.White;
-            btnHastaKabulBack.Image = (Image)resources.GetObject("btnHastaKabulBack.Image");
-            btnHastaKabulBack.Location = new Point(12, 12);
-            btnHastaKabulBack.Name = "btnHastaKabulBack";
-            btnHastaKabulBack.Size = new Size(30, 30);
-            btnHastaKabulBack.TabIndex = 5;
-            btnHastaKabulBack.UseVisualStyleBackColor = false;
-            btnHastaKabulBack.Click += btnHastaKabulBack_Click;
-            // 
             // btnHastaKabulClose
             // 
             btnHastaKabulClose.BackColor = Color.Transparent;
@@ -102,7 +87,7 @@
             label1.Font = new Font("Century Gothic", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
             label1.Location = new Point(405, 12);
             label1.Name = "label1";
-            label1.Size = new Size(337, 40);
+            label1.Size = new Size(271, 32);
             label1.TabIndex = 14;
             label1.Text = "Hasta Kabul Sayfası";
             // 
@@ -141,7 +126,7 @@
             label18.Font = new Font("Century Gothic", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
             label18.Location = new Point(158, 36);
             label18.Name = "label18";
-            label18.Size = new Size(174, 40);
+            label18.Size = new Size(138, 32);
             label18.TabIndex = 50;
             label18.Text = "Muayene";
             // 
@@ -165,7 +150,7 @@
             cmbHastaDoktor.FormattingEnabled = true;
             cmbHastaDoktor.Location = new Point(158, 152);
             cmbHastaDoktor.Name = "cmbHastaDoktor";
-            cmbHastaDoktor.Size = new Size(277, 31);
+            cmbHastaDoktor.Size = new Size(277, 29);
             cmbHastaDoktor.TabIndex = 15;
             // 
             // label16
@@ -173,7 +158,7 @@
             label16.AutoSize = true;
             label16.Location = new Point(39, 155);
             label16.Name = "label16";
-            label16.Size = new Size(85, 23);
+            label16.Size = new Size(70, 21);
             label16.TabIndex = 47;
             label16.Text = "Doktor :";
             // 
@@ -182,7 +167,7 @@
             cmbHastaPoliklinik.FormattingEnabled = true;
             cmbHastaPoliklinik.Location = new Point(158, 117);
             cmbHastaPoliklinik.Name = "cmbHastaPoliklinik";
-            cmbHastaPoliklinik.Size = new Size(277, 31);
+            cmbHastaPoliklinik.Size = new Size(277, 29);
             cmbHastaPoliklinik.TabIndex = 14;
             // 
             // label15
@@ -190,7 +175,7 @@
             label15.AutoSize = true;
             label15.Location = new Point(31, 120);
             label15.Name = "label15";
-            label15.Size = new Size(97, 23);
+            label15.Size = new Size(78, 21);
             label15.TabIndex = 45;
             label15.Text = "Poliklinik :";
             // 
@@ -214,7 +199,7 @@
             mtxtHastaTcKimlikNo.Location = new Point(172, 94);
             mtxtHastaTcKimlikNo.Mask = "00000000000";
             mtxtHastaTcKimlikNo.Name = "mtxtHastaTcKimlikNo";
-            mtxtHastaTcKimlikNo.Size = new Size(277, 32);
+            mtxtHastaTcKimlikNo.Size = new Size(277, 27);
             mtxtHastaTcKimlikNo.TabIndex = 52;
             // 
             // cmbHastail
@@ -222,28 +207,28 @@
             cmbHastail.FormattingEnabled = true;
             cmbHastail.Location = new Point(172, 430);
             cmbHastail.Name = "cmbHastail";
-            cmbHastail.Size = new Size(277, 31);
+            cmbHastail.Size = new Size(277, 29);
             cmbHastail.TabIndex = 63;
             // 
             // txtHastaAd
             // 
             txtHastaAd.Location = new Point(172, 127);
             txtHastaAd.Name = "txtHastaAd";
-            txtHastaAd.Size = new Size(277, 32);
+            txtHastaAd.Size = new Size(277, 27);
             txtHastaAd.TabIndex = 54;
             // 
             // txtHastaSoyad
             // 
             txtHastaSoyad.Location = new Point(172, 160);
             txtHastaSoyad.Name = "txtHastaSoyad";
-            txtHastaSoyad.Size = new Size(277, 32);
+            txtHastaSoyad.Size = new Size(277, 27);
             txtHastaSoyad.TabIndex = 55;
             // 
             // txtHastaMeslek
             // 
             txtHastaMeslek.Location = new Point(172, 397);
             txtHastaMeslek.Name = "txtHastaMeslek";
-            txtHastaMeslek.Size = new Size(277, 32);
+            txtHastaMeslek.Size = new Size(277, 27);
             txtHastaMeslek.TabIndex = 62;
             // 
             // cmbHastailce
@@ -251,7 +236,7 @@
             cmbHastailce.FormattingEnabled = true;
             cmbHastailce.Location = new Point(172, 465);
             cmbHastailce.Name = "cmbHastailce";
-            cmbHastailce.Size = new Size(277, 31);
+            cmbHastailce.Size = new Size(277, 29);
             cmbHastailce.TabIndex = 64;
             // 
             // label2
@@ -259,7 +244,7 @@
             label2.AutoSize = true;
             label2.Location = new Point(107, 130);
             label2.Name = "label2";
-            label2.Size = new Size(50, 23);
+            label2.Size = new Size(42, 21);
             label2.TabIndex = 66;
             label2.Text = "Ad :";
             // 
@@ -268,7 +253,7 @@
             cmbHastaCinsiyet.FormattingEnabled = true;
             cmbHastaCinsiyet.Location = new Point(172, 193);
             cmbHastaCinsiyet.Name = "cmbHastaCinsiyet";
-            cmbHastaCinsiyet.Size = new Size(277, 31);
+            cmbHastaCinsiyet.Size = new Size(277, 29);
             cmbHastaCinsiyet.TabIndex = 56;
             cmbHastaCinsiyet.SelectedIndexChanged += cmbHastaCinsiyet_SelectedIndexChanged;
             // 
@@ -277,7 +262,7 @@
             mtxtHastaIsTelefonu.Location = new Point(172, 364);
             mtxtHastaIsTelefonu.Mask = "(999) 000-0000";
             mtxtHastaIsTelefonu.Name = "mtxtHastaIsTelefonu";
-            mtxtHastaIsTelefonu.Size = new Size(277, 32);
+            mtxtHastaIsTelefonu.Size = new Size(277, 27);
             mtxtHastaIsTelefonu.TabIndex = 61;
             // 
             // label3
@@ -285,7 +270,7 @@
             label3.AutoSize = true;
             label3.Location = new Point(83, 163);
             label3.Name = "label3";
-            label3.Size = new Size(83, 23);
+            label3.Size = new Size(66, 21);
             label3.TabIndex = 67;
             label3.Text = "Soyad :";
             // 
@@ -294,7 +279,7 @@
             mtxtHastaCepTelefonu.Location = new Point(172, 331);
             mtxtHastaCepTelefonu.Mask = "(999) 000-0000";
             mtxtHastaCepTelefonu.Name = "mtxtHastaCepTelefonu";
-            mtxtHastaCepTelefonu.Size = new Size(277, 32);
+            mtxtHastaCepTelefonu.Size = new Size(277, 27);
             mtxtHastaCepTelefonu.TabIndex = 60;
             // 
             // label4
@@ -302,7 +287,7 @@
             label4.AutoSize = true;
             label4.Location = new Point(110, 97);
             label4.Name = "label4";
-            label4.Size = new Size(45, 23);
+            label4.Size = new Size(39, 21);
             label4.TabIndex = 68;
             label4.Text = "TC :";
             // 
@@ -310,7 +295,7 @@
             // 
             dtpHastaDogumTarihi.Location = new Point(172, 298);
             dtpHastaDogumTarihi.Name = "dtpHastaDogumTarihi";
-            dtpHastaDogumTarihi.Size = new Size(277, 32);
+            dtpHastaDogumTarihi.Size = new Size(277, 27);
             dtpHastaDogumTarihi.TabIndex = 59;
             // 
             // label5
@@ -318,7 +303,7 @@
             label5.AutoSize = true;
             label5.Location = new Point(68, 196);
             label5.Name = "label5";
-            label5.Size = new Size(97, 23);
+            label5.Size = new Size(81, 21);
             label5.TabIndex = 69;
             label5.Text = "Cinsiyeti :";
             // 
@@ -327,7 +312,7 @@
             cmbHastaDogumYeri.FormattingEnabled = true;
             cmbHastaDogumYeri.Location = new Point(172, 263);
             cmbHastaDogumYeri.Name = "cmbHastaDogumYeri";
-            cmbHastaDogumYeri.Size = new Size(277, 31);
+            cmbHastaDogumYeri.Size = new Size(277, 29);
             cmbHastaDogumYeri.TabIndex = 58;
             // 
             // label6
@@ -335,7 +320,7 @@
             label6.AutoSize = true;
             label6.Location = new Point(47, 231);
             label6.Name = "label6";
-            label6.Size = new Size(126, 23);
+            label6.Size = new Size(102, 21);
             label6.TabIndex = 70;
             label6.Text = "Kan Grubu :";
             // 
@@ -344,7 +329,7 @@
             cmbHastaKanGrubu.FormattingEnabled = true;
             cmbHastaKanGrubu.Location = new Point(172, 228);
             cmbHastaKanGrubu.Name = "cmbHastaKanGrubu";
-            cmbHastaKanGrubu.Size = new Size(277, 31);
+            cmbHastaKanGrubu.Size = new Size(277, 29);
             cmbHastaKanGrubu.TabIndex = 57;
             // 
             // label7
@@ -352,7 +337,7 @@
             label7.AutoSize = true;
             label7.Location = new Point(72, 334);
             label7.Name = "label7";
-            label7.Size = new Size(96, 23);
+            label7.Size = new Size(77, 21);
             label7.TabIndex = 71;
             label7.Text = "Cep Tel :";
             // 
@@ -361,7 +346,7 @@
             label13.AutoSize = true;
             label13.Location = new Point(40, 266);
             label13.Name = "label13";
-            label13.Size = new Size(134, 23);
+            label13.Size = new Size(109, 21);
             label13.TabIndex = 77;
             label13.Text = "Doğum Yeri :";
             // 
@@ -370,7 +355,7 @@
             label8.AutoSize = true;
             label8.Location = new Point(95, 367);
             label8.Name = "label8";
-            label8.Size = new Size(66, 23);
+            label8.Size = new Size(54, 21);
             label8.TabIndex = 72;
             label8.Text = "İş Tel :";
             // 
@@ -379,7 +364,7 @@
             label12.AutoSize = true;
             label12.Location = new Point(103, 468);
             label12.Name = "label12";
-            label12.Size = new Size(57, 23);
+            label12.Size = new Size(46, 21);
             label12.TabIndex = 76;
             label12.Text = "İlçe :";
             // 
@@ -388,7 +373,7 @@
             label9.AutoSize = true;
             label9.Location = new Point(29, 303);
             label9.Name = "label9";
-            label9.Size = new Size(145, 23);
+            label9.Size = new Size(120, 21);
             label9.TabIndex = 73;
             label9.Text = "Doğum Tarihi :";
             // 
@@ -397,7 +382,7 @@
             label11.AutoSize = true;
             label11.Location = new Point(123, 433);
             label11.Name = "label11";
-            label11.Size = new Size(31, 23);
+            label11.Size = new Size(26, 21);
             label11.TabIndex = 75;
             label11.Text = "İl :";
             // 
@@ -406,7 +391,7 @@
             label10.AutoSize = true;
             label10.Location = new Point(79, 400);
             label10.Name = "label10";
-            label10.Size = new Size(87, 23);
+            label10.Size = new Size(70, 21);
             label10.TabIndex = 74;
             label10.Text = "Meslek :";
             // 
@@ -444,7 +429,6 @@
             Controls.Add(label10);
             Controls.Add(label1);
             Controls.Add(btnHastaKabulClose);
-            Controls.Add(btnHastaKabulBack);
             Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
@@ -459,8 +443,6 @@
         }
 
         #endregion
-
-        private Button btnHastaKabulBack;
         private Button btnHastaKabulClose;
         private Label label1;
         private Button btnHastaTcSorgula;
