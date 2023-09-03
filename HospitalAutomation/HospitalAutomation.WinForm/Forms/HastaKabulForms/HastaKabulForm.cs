@@ -17,6 +17,7 @@ namespace HospitalAutomation.WinForm.Forms.HastaKabulForms
 
     public partial class HastaKabulForm : Form
     {
+        private readonly IDoktorService doktorService;
         private readonly IPoliklinikService poliklinikService;
         private readonly IKanGrubuService kanGrubuService;
         private readonly IGenderService genderService;
@@ -27,6 +28,7 @@ namespace HospitalAutomation.WinForm.Forms.HastaKabulForms
             genderService = dependencyContainer.GetGenderServiceInstance();
             kanGrubuService = dependencyContainer.GetKanGrubuServiceInstance();
             poliklinikService=dependencyContainer.GetPoliklinikServiceInstance();
+            doktorService=dependencyContainer.GetDoktorServiceInstance();
             InitializeComponent();
         }
 
@@ -35,6 +37,7 @@ namespace HospitalAutomation.WinForm.Forms.HastaKabulForms
             LoadGender();
             LoadKanGrubu();
             LoadPoliklinik();
+            LoadDoktor();
         }
 
         private void btnHastaKabulClose_Click(object sender, EventArgs e)
@@ -88,7 +91,14 @@ namespace HospitalAutomation.WinForm.Forms.HastaKabulForms
             cmbHastaPoliklinik.DisplayMember = "PoliklinikAdi";
             cmbHastaPoliklinik.ValueMember= "ID";
         }
-
+        private void LoadDoktor()
+        {
+            var doktorList=doktorService.GetDoktorList();
+            cmbHastaDoktor.DataSource=null;
+            cmbHastaDoktor.DataSource= doktorList;
+            cmbHastaDoktor.DisplayMember = "Ad";
+            cmbHastaDoktor.ValueMember = "ID";
+        }
        
 
        

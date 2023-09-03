@@ -23,5 +23,6 @@ namespace HospitalAutomation.Entities
         public int UnvanId { get; set; }
         public int KlinikId { get; set; }
         public int HastaneId { get; set; }
+        public string MeslekKodu { get; set; }
     }
 }
