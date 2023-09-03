@@ -14,7 +14,8 @@ namespace HospitalAutomation.Business
         ServiceProvider serviceProvider;
         public BusinessServiceRegistration()
         {
-            serviceProvider = new ServiceCollection().AddScoped<IGenderService, GenderManager>().AddScoped<IKanGrubuService,KanGrubuManager>()
+            serviceProvider = new ServiceCollection().AddScoped<IGenderService, GenderManager>()
+                .AddScoped<IKanGrubuService,KanGrubuManager>().AddScoped<IPoliklinikService,PoliklinikManager>()
                 .BuildServiceProvider();
         }
         // Microsoft  
@@ -28,6 +29,10 @@ namespace HospitalAutomation.Business
         public IKanGrubuService GetKanGrubuServiceInstance()
         {
             return serviceProvider.GetRequiredService<IKanGrubuService>();
+        }
+        public IPoliklinikService GetPoliklinikServiceInstance()
+        {
+            return serviceProvider.GetRequiredService<IPoliklinikService>();
         }
     }
 }
