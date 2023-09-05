@@ -27,5 +27,12 @@ namespace HospitalAutomation.WinForm.Forms.DoktorForms
             DoktorMuayeneForm doktorMuayeneForm = new DoktorMuayeneForm();
             doktorMuayeneForm.ShowDialog();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+
     }
 }

@@ -16,7 +16,7 @@ namespace HospitalAutomation.Business
         {
             serviceProvider = new ServiceCollection().AddScoped<IGenderService, GenderManager>()
                 .AddScoped<IKanGrubuService,KanGrubuManager>().AddScoped<IPoliklinikService,PoliklinikManager>()
-                .AddScoped<IDoktorService,DoktorManager>()
+                .AddScoped<IDoktorService,DoktorManager>().AddScoped<IHastalarService,HastalarManager>()
                 .BuildServiceProvider();
         }
         // Microsoft  
@@ -38,6 +38,10 @@ namespace HospitalAutomation.Business
         public IDoktorService GetDoktorServiceInstance()
         {
             return serviceProvider.GetRequiredService<IDoktorService>();
+        }
+        public IHastalarService GetHastalarServiceInstance()
+        {
+            return serviceProvider.GetRequiredService<IHastalarService>();
         }
     }
 }
