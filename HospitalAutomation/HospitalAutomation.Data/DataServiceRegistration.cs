@@ -1,5 +1,6 @@
 ﻿using HospitalAutomation.Data.Interfaces;
 using HospitalAutomation.Data.Repositories;
+using HospitalAutomation.Entities;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,8 @@ namespace HospitalAutomation.Data
             serviceProvider = new ServiceCollection().AddScoped<IGenderRepository, GenderRepository>()
              .AddScoped<IKanGrubuRepository,KanGrubuRepository>().AddScoped<IPoliklinikRepository,PoliklinikRepository>()
              .AddScoped<IDoktorRepository,DoktorRepository>().AddScoped<IHastaRepository,HastaRepository>()
+             .AddScoped<IIlRepository,IlRepository>()
+             .AddScoped<IIlceRepository,IlceRepository>()
                .BuildServiceProvider();
         }
         // Microsoft  
@@ -42,6 +45,14 @@ namespace HospitalAutomation.Data
         public IHastaRepository GetHastalarRepositoryInstance()
         {
             return serviceProvider.GetRequiredService<IHastaRepository>();
+        }
+        public IIlRepository GetIlRepositoryInstance()
+        {
+            return serviceProvider.GetRequiredService<IIlRepository>();
+        }
+        public IIlceRepository GetIlceRepositoryInstance()
+        {
+            return serviceProvider.GetRequiredService<IIlceRepository>();
         }
     }
 }

@@ -41,7 +41,7 @@
             label15 = new Label();
             btnHastaKayit = new Button();
             mtxtHastaTcKimlikNo = new MaskedTextBox();
-            cmbHastail = new ComboBox();
+            cmbHastaIl = new ComboBox();
             txtHastaAd = new TextBox();
             txtHastaSoyad = new TextBox();
             txtHastaMeslek = new TextBox();
@@ -169,7 +169,6 @@
             cmbHastaPoliklinik.Name = "cmbHastaPoliklinik";
             cmbHastaPoliklinik.Size = new Size(277, 31);
             cmbHastaPoliklinik.TabIndex = 14;
-
             // 
             // label15
             // 
@@ -203,13 +202,14 @@
             mtxtHastaTcKimlikNo.Size = new Size(277, 32);
             mtxtHastaTcKimlikNo.TabIndex = 52;
             // 
-            // cmbHastail
+            // cmbHastaIl
             // 
-            cmbHastail.FormattingEnabled = true;
-            cmbHastail.Location = new Point(172, 430);
-            cmbHastail.Name = "cmbHastail";
-            cmbHastail.Size = new Size(277, 31);
-            cmbHastail.TabIndex = 63;
+            cmbHastaIl.FormattingEnabled = true;
+            cmbHastaIl.Location = new Point(172, 430);
+            cmbHastaIl.Name = "cmbHastaIl";
+            cmbHastaIl.Size = new Size(277, 31);
+            cmbHastaIl.TabIndex = 63;
+            cmbHastaIl.SelectedIndexChanged += cmbHastaIl_SelectedIndexChanged;
             // 
             // txtHastaAd
             // 
@@ -405,7 +405,7 @@
             Controls.Add(groupBox1);
             Controls.Add(btnHastaKayit);
             Controls.Add(mtxtHastaTcKimlikNo);
-            Controls.Add(cmbHastail);
+            Controls.Add(cmbHastaIl);
             Controls.Add(txtHastaAd);
             Controls.Add(txtHastaSoyad);
             Controls.Add(txtHastaMeslek);
@@ -456,7 +456,7 @@
         private Label label15;
         private Button btnHastaKayit;
         private MaskedTextBox mtxtHastaTcKimlikNo;
-        private ComboBox cmbHastail;
+        private ComboBox cmbHastaIl;
         private TextBox txtHastaAd;
         private TextBox txtHastaSoyad;
         private TextBox txtHastaMeslek;

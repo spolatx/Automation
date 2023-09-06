@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HospitalAutomation.Data.Helpers
 {
-    internal class DbConnectionHelper
+    public class DbConnectionHelper
     {
         public SqlConnection Connection => GetConnection();
         private SqlConnection GetConnection()

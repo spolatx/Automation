@@ -1,34 +1,42 @@
 ﻿using HospitalAutomation.Business;
 using HospitalAutomation.Business.Interfaces;
 using HospitalAutomation.Dtos;
+using HospitalAutomation.Data;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using HospitalAutomation.Data.Helpers;
 
 namespace HospitalAutomation.WinForm.Forms.HastaKabulForms
 {
 
     public partial class HastaKabulForm : Form
     {
+        private readonly IIlService ilService;
         private readonly IDoktorService doktorService;
         private readonly IPoliklinikService poliklinikService;
         private readonly IKanGrubuService kanGrubuService;
         private readonly IGenderService genderService;
+        //private readonly IIlceService ilceService;
+
         private GenderListDto selectedGender;
         public HastaKabulForm()
         {
             var dependencyContainer = new BusinessServiceRegistration();
             genderService = dependencyContainer.GetGenderServiceInstance();
             kanGrubuService = dependencyContainer.GetKanGrubuServiceInstance();
-            poliklinikService=dependencyContainer.GetPoliklinikServiceInstance();
-            doktorService=dependencyContainer.GetDoktorServiceInstance();
+            poliklinikService = dependencyContainer.GetPoliklinikServiceInstance();
+            doktorService = dependencyContainer.GetDoktorServiceInstance();
+            ilService = dependencyContainer.GetIlServiceInstance();
+            //ilceService = dependencyContainer.GetIlceServiceInstance();
             InitializeComponent();
         }
 
@@ -38,6 +46,8 @@ namespace HospitalAutomation.WinForm.Forms.HastaKabulForms
             LoadKanGrubu();
             LoadPoliklinik();
             LoadDoktor();
+            LoadIl();
+            //LoadIlce();
         }
 
         private void btnHastaKabulClose_Click(object sender, EventArgs e)
@@ -75,7 +85,7 @@ namespace HospitalAutomation.WinForm.Forms.HastaKabulForms
             cmbHastaCinsiyet.DisplayMember = "Aciklama";
             cmbHastaCinsiyet.ValueMember = "Id";
         }
-        private void LoadKanGrubu() 
+        private void LoadKanGrubu()
         {
             var kanGrubuList = kanGrubuService.GetKanGrubuList();
             cmbHastaKanGrubu.DataSource = null;
@@ -86,21 +96,56 @@ namespace HospitalAutomation.WinForm.Forms.HastaKabulForms
         private void LoadPoliklinik()
         {
             var poliklinikList = poliklinikService.GetPoliklinikList();
-            cmbHastaPoliklinik.DataSource=null;
+            cmbHastaPoliklinik.DataSource = null;
             cmbHastaPoliklinik.DataSource = poliklinikList;
             cmbHastaPoliklinik.DisplayMember = "PoliklinikAdi";
-            cmbHastaPoliklinik.ValueMember= "ID";
+            cmbHastaPoliklinik.ValueMember = "ID";
         }
         private void LoadDoktor()
         {
-            var doktorList=doktorService.GetDoktorList();
-            cmbHastaDoktor.DataSource=null;
-            cmbHastaDoktor.DataSource= doktorList;
+            var doktorList = doktorService.GetDoktorList();
+            cmbHastaDoktor.DataSource = null;
+            cmbHastaDoktor.DataSource = doktorList;
             cmbHastaDoktor.DisplayMember = "Ad";
             cmbHastaDoktor.ValueMember = "ID";
         }
-       
+        private void LoadIl()
+        {
+            var ilList = ilService.GetIlList();
+            cmbHastaIl.DataSource = null;
+            cmbHastaIl.DataSource = ilList;
+            cmbHastaIl.DisplayMember = "sehiradi";
+            cmbHastaIl.ValueMember = "Id";
+        }
+        //private void LoadIlce()
+        //{
 
-       
+        //    var ilceList = ilceService.GetIlceList();
+        //    cmbHastailce.DataSource = null;
+        //    cmbHastailce.DataSource = ilceList;
+        //    cmbHastailce.DisplayMember = "IlceAdi";
+        //    cmbHastailce.ValueMember = "Id";
+        //}
+
+        private void cmbHastaIl_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cmbHastailce.Items.Clear();
+            var connection = new DbConnectionHelper().Connection;
+            SqlCommand command = new SqlCommand();
+            command.CommandType = System.Data.CommandType.Text;
+            command.CommandText = "select * from ilceler where sehirid=@p1";
+            command.Connection= connection;
+            connection.Open();
+            command.Parameters.AddWithValue("@p1", cmbHastaIl.SelectedIndex+1);
+            var reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                cmbHastailce.Items.Add(reader.GetString(1));
+            }
+            connection.Close();
+            reader.Close();
+
+
+        }
     }
 }

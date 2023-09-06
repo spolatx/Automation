@@ -1,5 +1,8 @@
 ﻿using HospitalAutomation.Business.Interfaces;
 using HospitalAutomation.Business.Managers;
+using HospitalAutomation.Data.Interfaces;
+using HospitalAutomation.Dtos;
+using HospitalAutomation.Entities;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -17,6 +20,8 @@ namespace HospitalAutomation.Business
             serviceProvider = new ServiceCollection().AddScoped<IGenderService, GenderManager>()
                 .AddScoped<IKanGrubuService,KanGrubuManager>().AddScoped<IPoliklinikService,PoliklinikManager>()
                 .AddScoped<IDoktorService,DoktorManager>().AddScoped<IHastalarService,HastalarManager>()
+                .AddScoped<IIlService,IlManager>()
+                .AddScoped<IIlceService,IlceManager>()
                 .BuildServiceProvider();
         }
         // Microsoft  
@@ -43,5 +48,14 @@ namespace HospitalAutomation.Business
         {
             return serviceProvider.GetRequiredService<IHastalarService>();
         }
+        public IIlService GetIlServiceInstance()
+        {
+            return serviceProvider.GetRequiredService<IIlService>();
+        }
+        public IIlceService GetIlceServiceInstance()
+        {
+            return serviceProvider.GetRequiredService<IIlceService>();
+        }
     }
+
 }
