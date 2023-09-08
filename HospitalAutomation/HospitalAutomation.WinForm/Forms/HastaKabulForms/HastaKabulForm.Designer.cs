@@ -315,6 +315,7 @@
             cmbHastaDogumYeri.Name = "cmbHastaDogumYeri";
             cmbHastaDogumYeri.Size = new Size(277, 31);
             cmbHastaDogumYeri.TabIndex = 58;
+  
             // 
             // label6
             // 

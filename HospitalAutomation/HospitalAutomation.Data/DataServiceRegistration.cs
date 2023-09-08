@@ -20,6 +20,7 @@ namespace HospitalAutomation.Data
              .AddScoped<IDoktorRepository,DoktorRepository>().AddScoped<IHastaRepository,HastaRepository>()
              .AddScoped<IIlRepository,IlRepository>()
              .AddScoped<IIlceRepository,IlceRepository>()
+             .AddScoped<IHastaKabulListRepository, HastaKabulRepository>()
                .BuildServiceProvider();
         }
         // Microsoft  
@@ -53,6 +54,10 @@ namespace HospitalAutomation.Data
         public IIlceRepository GetIlceRepositoryInstance()
         {
             return serviceProvider.GetRequiredService<IIlceRepository>();
+        }
+        public IHastaKabulListRepository GetHastaKabulListRepositoryInstance()
+        {
+            return serviceProvider.GetRequiredService<IHastaKabulListRepository>();
         }
     }
 }

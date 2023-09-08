@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HospitalAutomation.Entities
+namespace HospitalAutomation.Dtos
 {
-    public class HastaKabul
+    public class RegisterHastalarDto
     {
         public string TcNo { get; set; }
         public string Ad { get; set; }
@@ -21,5 +21,9 @@ namespace HospitalAutomation.Entities
         public int IlceId { get; set; }
         public int PoliklinikId { get; set; }
         public int DoktorId { get; set; }
+
+
+
+
     }
 }

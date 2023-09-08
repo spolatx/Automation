@@ -20,6 +20,7 @@ namespace HospitalAutomation.WinForm.Forms.HastaKabulForms
 
     public partial class HastaKabulForm : Form
     {
+        private readonly IHastaKabulService hastaKabulService;
         private readonly IIlService ilService;
         private readonly IDoktorService doktorService;
         private readonly IPoliklinikService poliklinikService;
@@ -36,6 +37,7 @@ namespace HospitalAutomation.WinForm.Forms.HastaKabulForms
             poliklinikService = dependencyContainer.GetPoliklinikServiceInstance();
             doktorService = dependencyContainer.GetDoktorServiceInstance();
             ilService = dependencyContainer.GetIlServiceInstance();
+            hastaKabulService=dependencyContainer.GetHastaKabulServiceInstance();
             //ilceService = dependencyContainer.GetIlceServiceInstance();
             InitializeComponent();
         }
@@ -57,7 +59,22 @@ namespace HospitalAutomation.WinForm.Forms.HastaKabulForms
 
         private void btnHastaKayit_Click(object sender, EventArgs e)
         {
-
+            hastaKabulService.CreateHastaKabul(new Dtos.RegisterHastalarDto
+            {
+                TcNo=mtxtHastaTcKimlikNo.Text,
+                Ad=txtHastaAd.Text,
+                Soyad=txtHastaSoyad.Text,
+                CinsiyetId=cmbHastaCinsiyet.SelectedIndex+1,
+                KanGrubuId=cmbHastaKanGrubu.SelectedIndex+1,
+                DogumYeriId=cmbHastaDogumYeri.SelectedIndex + 1,
+                DogumTarihi=dtpHastaDogumTarihi.Value,
+                CepTel=mtxtHastaCepTelefonu.Text,
+                Istel=mtxtHastaIsTelefonu.Text,
+                IlId=cmbHastaIl.SelectedIndex + 1,
+                IlceId=cmbHastailce.SelectedIndex + 1,
+                PoliklinikId=cmbHastaPoliklinik.SelectedIndex + 1,
+                DoktorId=cmbHastaDoktor.SelectedIndex + 1
+            });
         }
 
         private void btnHastaPoliklinikKayit_Click(object sender, EventArgs e)
@@ -111,11 +128,18 @@ namespace HospitalAutomation.WinForm.Forms.HastaKabulForms
         }
         private void LoadIl()
         {
+            //İl comboboxına iller getirildi
             var ilList = ilService.GetIlList();
             cmbHastaIl.DataSource = null;
             cmbHastaIl.DataSource = ilList;
             cmbHastaIl.DisplayMember = "sehiradi";
             cmbHastaIl.ValueMember = "Id";
+            //Doğum Yeri Combobaxına iller getirildi.
+            var dogumIl = ilService.GetIlList();
+            cmbHastaDogumYeri.DataSource = null;
+            cmbHastaDogumYeri.DataSource = dogumIl;
+            cmbHastaDogumYeri.DisplayMember = "sehiradi";
+            cmbHastaDogumYeri.ValueMember="Id";
         }
         //private void LoadIlce()
         //{
@@ -134,9 +158,9 @@ namespace HospitalAutomation.WinForm.Forms.HastaKabulForms
             SqlCommand command = new SqlCommand();
             command.CommandType = System.Data.CommandType.Text;
             command.CommandText = "select * from ilceler where sehirid=@p1";
-            command.Connection= connection;
+            command.Connection = connection;
             connection.Open();
-            command.Parameters.AddWithValue("@p1", cmbHastaIl.SelectedIndex+1);
+            command.Parameters.AddWithValue("@p1", cmbHastaIl.SelectedIndex + 1);
             var reader = command.ExecuteReader();
             while (reader.Read())
             {
@@ -147,5 +171,7 @@ namespace HospitalAutomation.WinForm.Forms.HastaKabulForms
 
 
         }
+
+      
     }
 }

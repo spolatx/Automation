@@ -22,6 +22,7 @@ namespace HospitalAutomation.Business
                 .AddScoped<IDoktorService,DoktorManager>().AddScoped<IHastalarService,HastalarManager>()
                 .AddScoped<IIlService,IlManager>()
                 .AddScoped<IIlceService,IlceManager>()
+                .AddScoped<IHastaKabulService, HastaKabulManager>()
                 .BuildServiceProvider();
         }
         // Microsoft  
@@ -55,6 +56,10 @@ namespace HospitalAutomation.Business
         public IIlceService GetIlceServiceInstance()
         {
             return serviceProvider.GetRequiredService<IIlceService>();
+        }
+        public IHastaKabulService GetHastaKabulServiceInstance()
+        {
+            return serviceProvider.GetRequiredService<IHastaKabulService>();
         }
     }
 
