@@ -230,6 +230,7 @@
             Name = "DoktorBekleyenHastalarForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "DoktorBekleyenHastalarForm";
+            Load += DoktorBekleyenHastalarForm_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)hastalarBindingSource).EndInit();
             ((System.ComponentModel.ISupportInitialize)genderRepositoryBindingSource).EndInit();

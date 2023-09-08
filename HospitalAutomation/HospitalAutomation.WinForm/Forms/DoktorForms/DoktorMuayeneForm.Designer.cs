@@ -80,7 +80,7 @@
             mtxtDoktorMuayeneHastaTcKimlikNo.Mask = "00000000000";
             mtxtDoktorMuayeneHastaTcKimlikNo.Name = "mtxtDoktorMuayeneHastaTcKimlikNo";
             mtxtDoktorMuayeneHastaTcKimlikNo.ReadOnly = true;
-            mtxtDoktorMuayeneHastaTcKimlikNo.Size = new Size(277, 27);
+            mtxtDoktorMuayeneHastaTcKimlikNo.Size = new Size(277, 32);
             mtxtDoktorMuayeneHastaTcKimlikNo.TabIndex = 1;
             // 
             // txtDoktorMuayeneHastaAd
@@ -88,7 +88,7 @@
             txtDoktorMuayeneHastaAd.Location = new Point(171, 160);
             txtDoktorMuayeneHastaAd.Name = "txtDoktorMuayeneHastaAd";
             txtDoktorMuayeneHastaAd.ReadOnly = true;
-            txtDoktorMuayeneHastaAd.Size = new Size(277, 27);
+            txtDoktorMuayeneHastaAd.Size = new Size(277, 32);
             txtDoktorMuayeneHastaAd.TabIndex = 2;
             // 
             // txtDoktorMuayeneHastaSoyad
@@ -96,7 +96,7 @@
             txtDoktorMuayeneHastaSoyad.Location = new Point(171, 193);
             txtDoktorMuayeneHastaSoyad.Name = "txtDoktorMuayeneHastaSoyad";
             txtDoktorMuayeneHastaSoyad.ReadOnly = true;
-            txtDoktorMuayeneHastaSoyad.Size = new Size(277, 27);
+            txtDoktorMuayeneHastaSoyad.Size = new Size(277, 32);
             txtDoktorMuayeneHastaSoyad.TabIndex = 3;
             // 
             // label2
@@ -104,7 +104,7 @@
             label2.AutoSize = true;
             label2.Location = new Point(102, 163);
             label2.Name = "label2";
-            label2.Size = new Size(42, 21);
+            label2.Size = new Size(50, 23);
             label2.TabIndex = 96;
             label2.Text = "Ad :";
             // 
@@ -113,7 +113,7 @@
             label3.AutoSize = true;
             label3.Location = new Point(78, 196);
             label3.Name = "label3";
-            label3.Size = new Size(66, 21);
+            label3.Size = new Size(83, 23);
             label3.TabIndex = 97;
             label3.Text = "Soyad :";
             // 
@@ -122,7 +122,7 @@
             label4.AutoSize = true;
             label4.Location = new Point(105, 130);
             label4.Name = "label4";
-            label4.Size = new Size(39, 21);
+            label4.Size = new Size(45, 23);
             label4.TabIndex = 98;
             label4.Text = "TC :";
             // 
@@ -131,7 +131,7 @@
             label5.AutoSize = true;
             label5.Location = new Point(63, 229);
             label5.Name = "label5";
-            label5.Size = new Size(81, 21);
+            label5.Size = new Size(97, 23);
             label5.TabIndex = 99;
             label5.Text = "Cinsiyeti :";
             // 
@@ -140,7 +140,7 @@
             label6.AutoSize = true;
             label6.Location = new Point(42, 264);
             label6.Name = "label6";
-            label6.Size = new Size(102, 21);
+            label6.Size = new Size(126, 23);
             label6.TabIndex = 100;
             label6.Text = "Kan Grubu :";
             // 
@@ -149,7 +149,7 @@
             label13.AutoSize = true;
             label13.Location = new Point(35, 299);
             label13.Name = "label13";
-            label13.Size = new Size(109, 21);
+            label13.Size = new Size(134, 23);
             label13.TabIndex = 107;
             label13.Text = "Doğum Yeri :";
             // 
@@ -158,7 +158,7 @@
             label9.AutoSize = true;
             label9.Location = new Point(24, 336);
             label9.Name = "label9";
-            label9.Size = new Size(120, 21);
+            label9.Size = new Size(145, 23);
             label9.TabIndex = 103;
             label9.Text = "Doğum Tarihi :";
             // 
@@ -168,7 +168,7 @@
             label1.Font = new Font("Century Gothic", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
             label1.Location = new Point(481, 8);
             label1.Name = "label1";
-            label1.Size = new Size(138, 32);
+            label1.Size = new Size(174, 40);
             label1.TabIndex = 81;
             label1.Text = "Muayene";
             // 
@@ -191,7 +191,7 @@
             txtDoktorMuayeneHastaId.Location = new Point(171, 94);
             txtDoktorMuayeneHastaId.Name = "txtDoktorMuayeneHastaId";
             txtDoktorMuayeneHastaId.ReadOnly = true;
-            txtDoktorMuayeneHastaId.Size = new Size(77, 27);
+            txtDoktorMuayeneHastaId.Size = new Size(77, 32);
             txtDoktorMuayeneHastaId.TabIndex = 0;
             // 
             // label17
@@ -199,7 +199,7 @@
             label17.AutoSize = true;
             label17.Location = new Point(59, 97);
             label17.Name = "label17";
-            label17.Size = new Size(85, 21);
+            label17.Size = new Size(104, 23);
             label17.TabIndex = 110;
             label17.Text = "Hasta ID :";
             // 
@@ -208,7 +208,7 @@
             txtDoktorMuayeneCinsiyet.Location = new Point(171, 226);
             txtDoktorMuayeneCinsiyet.Name = "txtDoktorMuayeneCinsiyet";
             txtDoktorMuayeneCinsiyet.ReadOnly = true;
-            txtDoktorMuayeneCinsiyet.Size = new Size(277, 27);
+            txtDoktorMuayeneCinsiyet.Size = new Size(277, 32);
             txtDoktorMuayeneCinsiyet.TabIndex = 4;
             // 
             // txtDoktorMuayeneKanGrubu
@@ -216,7 +216,7 @@
             txtDoktorMuayeneKanGrubu.Location = new Point(171, 261);
             txtDoktorMuayeneKanGrubu.Name = "txtDoktorMuayeneKanGrubu";
             txtDoktorMuayeneKanGrubu.ReadOnly = true;
-            txtDoktorMuayeneKanGrubu.Size = new Size(277, 27);
+            txtDoktorMuayeneKanGrubu.Size = new Size(277, 32);
             txtDoktorMuayeneKanGrubu.TabIndex = 112;
             // 
             // txtDoktorMuayeneDogumYeri
@@ -224,7 +224,7 @@
             txtDoktorMuayeneDogumYeri.Location = new Point(171, 296);
             txtDoktorMuayeneDogumYeri.Name = "txtDoktorMuayeneDogumYeri";
             txtDoktorMuayeneDogumYeri.ReadOnly = true;
-            txtDoktorMuayeneDogumYeri.Size = new Size(277, 27);
+            txtDoktorMuayeneDogumYeri.Size = new Size(277, 32);
             txtDoktorMuayeneDogumYeri.TabIndex = 113;
             // 
             // txtDoktorMuayeneDogumTarihi
@@ -232,7 +232,7 @@
             txtDoktorMuayeneDogumTarihi.Location = new Point(171, 333);
             txtDoktorMuayeneDogumTarihi.Name = "txtDoktorMuayeneDogumTarihi";
             txtDoktorMuayeneDogumTarihi.ReadOnly = true;
-            txtDoktorMuayeneDogumTarihi.Size = new Size(277, 27);
+            txtDoktorMuayeneDogumTarihi.Size = new Size(277, 32);
             txtDoktorMuayeneDogumTarihi.TabIndex = 114;
             // 
             // txtDoktorMuayenePoliklinik
@@ -240,7 +240,7 @@
             txtDoktorMuayenePoliklinik.Location = new Point(171, 457);
             txtDoktorMuayenePoliklinik.Name = "txtDoktorMuayenePoliklinik";
             txtDoktorMuayenePoliklinik.ReadOnly = true;
-            txtDoktorMuayenePoliklinik.Size = new Size(277, 27);
+            txtDoktorMuayenePoliklinik.Size = new Size(277, 32);
             txtDoktorMuayenePoliklinik.TabIndex = 118;
             // 
             // txtDoktorMuayeneDoktorAdı
@@ -248,7 +248,7 @@
             txtDoktorMuayeneDoktorAdı.Location = new Point(171, 420);
             txtDoktorMuayeneDoktorAdı.Name = "txtDoktorMuayeneDoktorAdı";
             txtDoktorMuayeneDoktorAdı.ReadOnly = true;
-            txtDoktorMuayeneDoktorAdı.Size = new Size(277, 27);
+            txtDoktorMuayeneDoktorAdı.Size = new Size(277, 32);
             txtDoktorMuayeneDoktorAdı.TabIndex = 117;
             // 
             // label7
@@ -256,7 +256,7 @@
             label7.AutoSize = true;
             label7.Location = new Point(74, 423);
             label7.Name = "label7";
-            label7.Size = new Size(70, 21);
+            label7.Size = new Size(85, 23);
             label7.TabIndex = 116;
             label7.Text = "Doktor :";
             // 
@@ -265,7 +265,7 @@
             label8.AutoSize = true;
             label8.Location = new Point(66, 460);
             label8.Name = "label8";
-            label8.Size = new Size(78, 21);
+            label8.Size = new Size(97, 23);
             label8.TabIndex = 115;
             label8.Text = "Poliklinik :";
             // 
@@ -315,10 +315,10 @@
             tabDoktorMuayeneTahlil.Controls.Add(btnTahlilEkle);
             tabDoktorMuayeneTahlil.Controls.Add(cmbMuayeneTahliller);
             tabDoktorMuayeneTahlil.Controls.Add(label15);
-            tabDoktorMuayeneTahlil.Location = new Point(4, 30);
+            tabDoktorMuayeneTahlil.Location = new Point(4, 32);
             tabDoktorMuayeneTahlil.Name = "tabDoktorMuayeneTahlil";
             tabDoktorMuayeneTahlil.Padding = new Padding(3);
-            tabDoktorMuayeneTahlil.Size = new Size(633, 477);
+            tabDoktorMuayeneTahlil.Size = new Size(633, 475);
             tabDoktorMuayeneTahlil.TabIndex = 0;
             tabDoktorMuayeneTahlil.Text = "Tahlil";
             tabDoktorMuayeneTahlil.UseVisualStyleBackColor = true;
@@ -342,17 +342,17 @@
             label14.AutoSize = true;
             label14.Location = new Point(485, 22);
             label14.Name = "label14";
-            label14.Size = new Size(134, 21);
+            label14.Size = new Size(165, 23);
             label14.TabIndex = 74;
             label14.Text = "İstenilen Tahliller";
             // 
             // lstMuayeneistenenTahliller
             // 
             lstMuayeneistenenTahliller.FormattingEnabled = true;
-            lstMuayeneistenenTahliller.ItemHeight = 21;
+            lstMuayeneistenenTahliller.ItemHeight = 23;
             lstMuayeneistenenTahliller.Location = new Point(312, 59);
             lstMuayeneistenenTahliller.Name = "lstMuayeneistenenTahliller";
-            lstMuayeneistenenTahliller.Size = new Size(315, 298);
+            lstMuayeneistenenTahliller.Size = new Size(315, 280);
             lstMuayeneistenenTahliller.TabIndex = 73;
             // 
             // btnTahlilEkle
@@ -374,7 +374,7 @@
             cmbMuayeneTahliller.FormattingEnabled = true;
             cmbMuayeneTahliller.Location = new Point(23, 59);
             cmbMuayeneTahliller.Name = "cmbMuayeneTahliller";
-            cmbMuayeneTahliller.Size = new Size(283, 29);
+            cmbMuayeneTahliller.Size = new Size(283, 31);
             cmbMuayeneTahliller.TabIndex = 70;
             // 
             // label15
@@ -382,7 +382,7 @@
             label15.AutoSize = true;
             label15.Location = new Point(23, 22);
             label15.Name = "label15";
-            label15.Size = new Size(66, 21);
+            label15.Size = new Size(81, 23);
             label15.TabIndex = 72;
             label15.Text = "Tahliller";
             // 
@@ -395,10 +395,10 @@
             tabDoktorMuayeneTanı.Controls.Add(textBox9);
             tabDoktorMuayeneTanı.Controls.Add(label10);
             tabDoktorMuayeneTanı.Controls.Add(textBox1);
-            tabDoktorMuayeneTanı.Location = new Point(4, 24);
+            tabDoktorMuayeneTanı.Location = new Point(4, 29);
             tabDoktorMuayeneTanı.Name = "tabDoktorMuayeneTanı";
             tabDoktorMuayeneTanı.Padding = new Padding(3);
-            tabDoktorMuayeneTanı.Size = new Size(633, 483);
+            tabDoktorMuayeneTanı.Size = new Size(633, 478);
             tabDoktorMuayeneTanı.TabIndex = 1;
             tabDoktorMuayeneTanı.Text = "Tanı";
             tabDoktorMuayeneTanı.UseVisualStyleBackColor = true;
@@ -408,7 +408,7 @@
             textBox2.Location = new Point(476, 441);
             textBox2.Name = "textBox2";
             textBox2.ReadOnly = true;
-            textBox2.Size = new Size(149, 27);
+            textBox2.Size = new Size(149, 32);
             textBox2.TabIndex = 122;
             // 
             // label12
@@ -416,7 +416,7 @@
             label12.AutoSize = true;
             label12.Location = new Point(318, 444);
             label12.Name = "label12";
-            label12.Size = new Size(152, 21);
+            label12.Size = new Size(191, 23);
             label12.TabIndex = 76;
             label12.Text = "Reçete Numarası :";
             // 
@@ -439,7 +439,7 @@
             label11.AutoSize = true;
             label11.Location = new Point(336, 25);
             label11.Name = "label11";
-            label11.Size = new Size(67, 21);
+            label11.Size = new Size(81, 23);
             label11.TabIndex = 74;
             label11.Text = "Reçete";
             // 
@@ -456,7 +456,7 @@
             label10.AutoSize = true;
             label10.Location = new Point(23, 25);
             label10.Name = "label10";
-            label10.Size = new Size(42, 21);
+            label10.Size = new Size(49, 23);
             label10.TabIndex = 72;
             label10.Text = "Tanı";
             // 

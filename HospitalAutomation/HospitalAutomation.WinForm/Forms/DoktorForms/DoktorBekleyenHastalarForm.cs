@@ -1,4 +1,7 @@
-﻿using System;
+﻿using HospitalAutomation.Business;
+using HospitalAutomation.Business.Interfaces;
+using HospitalAutomation.Data.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,8 +15,11 @@ namespace HospitalAutomation.WinForm.Forms.DoktorForms
 {
     public partial class DoktorBekleyenHastalarForm : Form
     {
+        IHastalarService hastalarService;
         public DoktorBekleyenHastalarForm()
         {
+            var dependencyContainer = new BusinessServiceRegistration();
+            hastalarService=dependencyContainer.GetHastalarServiceInstance();
             InitializeComponent();
         }
 
@@ -32,7 +38,16 @@ namespace HospitalAutomation.WinForm.Forms.DoktorForms
         {
 
         }
+        private void LoadHastalar()
+        {
+            var hastaList = hastalarService.GetHastalarList();
+            dataGridView1.DataSource = hastaList;
 
+        }
 
+        private void DoktorBekleyenHastalarForm_Load(object sender, EventArgs e)
+        {
+            LoadHastalar();
+        }
     }
 }
