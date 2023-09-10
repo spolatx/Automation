@@ -68,3 +68,15 @@ C:\Users\gecic\Source\Repos\Automation1\HospitalAutomation\HospitalAutomation.Dt
 C:\Users\gecic\Source\Repos\Automation1\HospitalAutomation\HospitalAutomation.Dtos\obj\Debug\net6.0\refint\HospitalAutomation.Dtos.dll
 C:\Users\gecic\Source\Repos\Automation1\HospitalAutomation\HospitalAutomation.Dtos\obj\Debug\net6.0\HospitalAutomation.Dtos.pdb
 C:\Users\gecic\Source\Repos\Automation1\HospitalAutomation\HospitalAutomation.Dtos\obj\Debug\net6.0\ref\HospitalAutomation.Dtos.dll
+C:\Users\muratacar\Desktop\enedlaeldk\Automation\HospitalAutomation\HospitalAutomation.Dtos\bin\Debug\net6.0\HospitalAutomation.Dtos.deps.json
+C:\Users\muratacar\Desktop\enedlaeldk\Automation\HospitalAutomation\HospitalAutomation.Dtos\bin\Debug\net6.0\HospitalAutomation.Dtos.dll
+C:\Users\muratacar\Desktop\enedlaeldk\Automation\HospitalAutomation\HospitalAutomation.Dtos\bin\Debug\net6.0\HospitalAutomation.Dtos.pdb
+C:\Users\muratacar\Desktop\enedlaeldk\Automation\HospitalAutomation\HospitalAutomation.Dtos\obj\Debug\net6.0\HospitalAutomation.Dtos.csproj.AssemblyReference.cache
+C:\Users\muratacar\Desktop\enedlaeldk\Automation\HospitalAutomation\HospitalAutomation.Dtos\obj\Debug\net6.0\HospitalAutomation.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muratacar\Desktop\enedlaeldk\Automation\HospitalAutomation\HospitalAutomation.Dtos\obj\Debug\net6.0\HospitalAutomation.Dtos.AssemblyInfoInputs.cache
+C:\Users\muratacar\Desktop\enedlaeldk\Automation\HospitalAutomation\HospitalAutomation.Dtos\obj\Debug\net6.0\HospitalAutomation.Dtos.AssemblyInfo.cs
+C:\Users\muratacar\Desktop\enedlaeldk\Automation\HospitalAutomation\HospitalAutomation.Dtos\obj\Debug\net6.0\HospitalAutomation.Dtos.csproj.CoreCompileInputs.cache
+C:\Users\muratacar\Desktop\enedlaeldk\Automation\HospitalAutomation\HospitalAutomation.Dtos\obj\Debug\net6.0\HospitalAutomation.Dtos.dll
+C:\Users\muratacar\Desktop\enedlaeldk\Automation\HospitalAutomation\HospitalAutomation.Dtos\obj\Debug\net6.0\refint\HospitalAutomation.Dtos.dll
+C:\Users\muratacar\Desktop\enedlaeldk\Automation\HospitalAutomation\HospitalAutomation.Dtos\obj\Debug\net6.0\HospitalAutomation.Dtos.pdb
+C:\Users\muratacar\Desktop\enedlaeldk\Automation\HospitalAutomation\HospitalAutomation.Dtos\obj\Debug\net6.0\ref\HospitalAutomation.Dtos.dll

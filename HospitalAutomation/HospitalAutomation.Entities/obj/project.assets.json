@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.Entities\\HospitalAutomation.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.Entities\\HospitalAutomation.Entities.csproj",
       "projectName": "HospitalAutomation.Entities",
-      "projectPath": "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.Entities\\HospitalAutomation.Entities.csproj",
+      "projectPath": "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.Entities\\HospitalAutomation.Entities.csproj",
       "packagesPath": "C:\\Users\\muratacar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.Entities\\obj\\",
+      "outputPath": "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\muratacar\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.Data\\HospitalAutomation.Data.csproj": {}
+    "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.Data\\HospitalAutomation.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.Data\\HospitalAutomation.Data.csproj": {
+    "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.Data\\HospitalAutomation.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.Data\\HospitalAutomation.Data.csproj",
+        "projectUniqueName": "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.Data\\HospitalAutomation.Data.csproj",
         "projectName": "HospitalAutomation.Data",
-        "projectPath": "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.Data\\HospitalAutomation.Data.csproj",
+        "projectPath": "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.Data\\HospitalAutomation.Data.csproj",
         "packagesPath": "C:\\Users\\muratacar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.Data\\obj\\",
+        "outputPath": "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\muratacar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.Entities\\HospitalAutomation.Entities.csproj": {
-                "projectPath": "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.Entities\\HospitalAutomation.Entities.csproj"
+              "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.Entities\\HospitalAutomation.Entities.csproj": {
+                "projectPath": "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.Entities\\HospitalAutomation.Entities.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.Entities\\HospitalAutomation.Entities.csproj": {
+    "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.Entities\\HospitalAutomation.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.Entities\\HospitalAutomation.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.Entities\\HospitalAutomation.Entities.csproj",
         "projectName": "HospitalAutomation.Entities",
-        "projectPath": "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.Entities\\HospitalAutomation.Entities.csproj",
+        "projectPath": "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.Entities\\HospitalAutomation.Entities.csproj",
         "packagesPath": "C:\\Users\\muratacar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.Entities\\obj\\",
+        "outputPath": "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\muratacar\\AppData\\Roaming\\NuGet\\NuGet.Config",

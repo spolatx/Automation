@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "USICLvFZvqMNPz0is/X3zSskPa2lCJXdm8jLl/v0uJmNBIxXvYXet2XWWoabQ3ztWGXt8Eu6LxgmrgxGZnK22w==",
+  "dgSpecHash": "TwEXqSgtvYOKve/OhOZAY63ehs4FVtmkaWufq6bpfd0ZoDLRyLsOo5NBeNi8HsPyTyk0qE3OL0DNpv+xcuz2ig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.WinForm\\HospitalAutomation.WinForm.csproj",
+  "projectFilePath": "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.WinForm\\HospitalAutomation.WinForm.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\muratacar\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\muratacar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",

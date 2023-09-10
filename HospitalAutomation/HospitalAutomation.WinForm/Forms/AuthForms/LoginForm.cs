@@ -38,35 +38,38 @@ namespace HospitalAutomation.WinForm.Forms.AuthForms
         private void btnLogin_Click(object sender, EventArgs e)
         {
             Form secilenForm;
-            switch (girisBilgisi)
+
+            if (girisBilgisi == "Hasta")
             {
-                case "Hasta":
-                    secilenForm = new HastaNavigationForm();
-                    secilenForm.ShowDialog();
-                    break;
-                case "Doktor":
-                    secilenForm = new DoktorNavigationForm();
-                    secilenForm.ShowDialog();
-
-                    break;
-                case "Yönetici":
-                    secilenForm = new YoneticiNavigationForm();
-                    secilenForm.ShowDialog();
-                    break;
-                case "Hasta Kabul":
-                    secilenForm = new HastaKabulForm();
-                    secilenForm.ShowDialog();
-
-                    break;
-                case "Laboratuvar":
-                    secilenForm = new LaboratuvarForm();
-                    secilenForm.ShowDialog();
-
-                    break;
-                default:
-                    MessageBox.Show("Herhangi bir kullanıcı seçilmedi.");
-                    break;
+                secilenForm = new HastaNavigationForm();
+                secilenForm.ShowDialog();
             }
+            else if (girisBilgisi == "Doktor")
+            {
+                secilenForm = new DoktorNavigationForm();
+                secilenForm.ShowDialog();
+            }
+            else if (girisBilgisi == "Yönetici")
+            {
+                secilenForm = new YoneticiNavigationForm();
+                secilenForm.ShowDialog();
+            }
+            else if (girisBilgisi == "Hasta Kabul")
+            {
+                secilenForm = new YoneticiNavigationForm();
+                secilenForm.ShowDialog();
+            }
+            else if (girisBilgisi == "Laboratuvar")
+            {
+                secilenForm = new LaboratuvarForm();
+                secilenForm.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Herhangi bir kullanıcı seçilmedi.");
+            }
+
+
         }
     }
 }

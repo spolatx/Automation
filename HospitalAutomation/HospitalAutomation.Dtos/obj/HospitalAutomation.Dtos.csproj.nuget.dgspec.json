@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.Dtos\\HospitalAutomation.Dtos.csproj": {}
+    "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.Dtos\\HospitalAutomation.Dtos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.Dtos\\HospitalAutomation.Dtos.csproj": {
+    "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.Dtos\\HospitalAutomation.Dtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.Dtos\\HospitalAutomation.Dtos.csproj",
+        "projectUniqueName": "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.Dtos\\HospitalAutomation.Dtos.csproj",
         "projectName": "HospitalAutomation.Dtos",
-        "projectPath": "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.Dtos\\HospitalAutomation.Dtos.csproj",
+        "projectPath": "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.Dtos\\HospitalAutomation.Dtos.csproj",
         "packagesPath": "C:\\Users\\muratacar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.Dtos\\obj\\",
+        "outputPath": "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.Dtos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\muratacar\\AppData\\Roaming\\NuGet\\NuGet.Config",

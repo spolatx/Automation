@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kLapbccQXtWPwdQWjWbFdi8tJNFuD0hsdDfC0KTjtxJvMTZ5f6AAYHs8aqkippeZLswzN9pxoINnCPSDQbEwdA==",
+  "dgSpecHash": "EOJIhp3jfDudA9m3VJRY2YKQHIB6JpYcOWNmKyt+aPISsj/8KGT3fI4xZM+IAcsG26tkU3s3upSvR5G+6KDIMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.Data\\HospitalAutomation.Data.csproj",
+  "projectFilePath": "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.Data\\HospitalAutomation.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\muratacar\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\muratacar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",

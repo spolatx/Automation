@@ -638,11 +638,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.WinForm\\HospitalAutomation.WinForm.csproj",
+      "projectUniqueName": "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.WinForm\\HospitalAutomation.WinForm.csproj",
       "projectName": "HospitalAutomation.WinForm",
-      "projectPath": "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.WinForm\\HospitalAutomation.WinForm.csproj",
+      "projectPath": "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.WinForm\\HospitalAutomation.WinForm.csproj",
       "packagesPath": "C:\\Users\\muratacar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.WinForm\\obj\\",
+      "outputPath": "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.WinForm\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\muratacar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -659,8 +659,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.Business\\HospitalAutomation.Business.csproj": {
-              "projectPath": "C:\\Users\\muratacar\\Desktop\\hastane\\Automation\\HospitalAutomation\\HospitalAutomation.Business\\HospitalAutomation.Business.csproj"
+            "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.Business\\HospitalAutomation.Business.csproj": {
+              "projectPath": "C:\\Users\\muratacar\\Desktop\\enedlaeldk\\Automation\\HospitalAutomation\\HospitalAutomation.Business\\HospitalAutomation.Business.csproj"
             }
           }
         }
