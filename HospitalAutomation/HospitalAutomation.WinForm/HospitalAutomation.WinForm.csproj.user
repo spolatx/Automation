@@ -16,6 +16,9 @@
     <Compile Update="Forms\DoktorForms\DoktorNavigationForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\DoktorForms\TahlilSonuclari.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\HastaKabulForms\HastaKabulForm.cs">
       <SubType>Form</SubType>
     </Compile>
