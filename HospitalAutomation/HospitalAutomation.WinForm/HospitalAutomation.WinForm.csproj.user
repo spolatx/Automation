@@ -49,5 +49,20 @@
     <Compile Update="Forms\LaboratuvarForms\LaboratuvarSonucForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\YoneticiForms\YoneticiBilgilerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\YoneticiForms\YoneticiDoktorlarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\YoneticiForms\YoneticiHastalarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\YoneticiForms\YoneticiNavigationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\YoneticiForms\YoneticiPolikliniklerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
