@@ -30,19 +30,19 @@ namespace HospitalAutomation.WinForm.Forms.DoktorForms
 
         private void btnDoktorRandevular_Click(object sender, EventArgs e)
         {
-            DoktorRandevular doktorRandevular = new DoktorRandevular();
+            DoktorRandevularForm doktorRandevular = new DoktorRandevularForm();
             doktorRandevular.ShowDialog();
         }
 
         private void btnDoktorTahlilSonuclari_Click(object sender, EventArgs e)
         {
-            TahlilSonuclari tahlilSonuclari = new TahlilSonuclari();
+            TahlilSonuclariForm tahlilSonuclari = new TahlilSonuclariForm();
             tahlilSonuclari.ShowDialog();
         }
 
         private void btnDoktorKullanici_Click(object sender, EventArgs e)
         {
-            DoktorKullanici doktorKullanici = new DoktorKullanici();
+            DoktorKullaniciForm doktorKullanici = new DoktorKullaniciForm();
             doktorKullanici.ShowDialog();
         }
     }

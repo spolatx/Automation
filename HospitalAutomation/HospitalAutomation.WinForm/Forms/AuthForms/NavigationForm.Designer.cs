@@ -129,16 +129,16 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Century Gothic", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(134, 12);
+            label1.Location = new Point(234, 8);
             label1.Name = "label1";
-            label1.Size = new Size(478, 32);
+            label1.Size = new Size(297, 32);
             label1.TabIndex = 13;
-            label1.Text = "Hastane Uygulamasına Hoşgeldiniz.";
+            label1.Text = "Hastane Otomasyonu";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(103, 71);
+            label2.Location = new Point(32, 66);
             label2.Name = "label2";
             label2.Size = new Size(252, 21);
             label2.TabIndex = 14;

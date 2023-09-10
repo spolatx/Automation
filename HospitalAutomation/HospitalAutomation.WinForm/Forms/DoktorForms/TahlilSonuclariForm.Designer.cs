@@ -1,6 +1,6 @@
 ﻿namespace HospitalAutomation.WinForm.Forms.DoktorForms
 {
-    partial class TahlilSonuclari
+    partial class TahlilSonuclariForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TahlilSonuclari));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TahlilSonuclariForm));
             label1 = new Label();
             btnTahlilSonuclariClose = new Button();
             dgvTahlilSonuclari = new DataGridView();

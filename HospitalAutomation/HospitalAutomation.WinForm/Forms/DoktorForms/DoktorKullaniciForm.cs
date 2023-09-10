@@ -10,22 +10,21 @@ using System.Windows.Forms;
 
 namespace HospitalAutomation.WinForm.Forms.DoktorForms
 {
-    public partial class DoktorRandevular : Form
+    public partial class DoktorKullaniciForm : Form
     {
-        public DoktorRandevular()
+        public DoktorKullaniciForm()
         {
             InitializeComponent();
         }
 
-        private void btnRandevularClose_Click(object sender, EventArgs e)
+        private void DoktorKullanici_Load(object sender, EventArgs e)
         {
-            this.Dispose();
+
         }
 
-        private void btnRandevuSec_Click(object sender, EventArgs e)
+        private void btnBekleyenHastaClose_Click(object sender, EventArgs e)
         {
-            DoktorMuayeneForm doktorMuayeneForm = new DoktorMuayeneForm();
-            doktorMuayeneForm.ShowDialog();
+            this.Dispose();
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace HospitalAutomation.WinForm.Forms.DoktorForms
 {
-    partial class DoktorRandevular
+    partial class DoktorRandevularForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DoktorRandevular));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DoktorRandevularForm));
             btnRandevuSec = new Button();
             btnRandevularClose = new Button();
             dgvRandevular = new DataGridView();

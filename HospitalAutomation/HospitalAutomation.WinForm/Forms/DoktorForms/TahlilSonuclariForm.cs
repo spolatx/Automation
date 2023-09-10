@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HospitalAutomation.WinForm.Forms.DoktorForms
 {
-    public partial class TahlilSonuclari : Form
+    public partial class TahlilSonuclariForm : Form
     {
-        public TahlilSonuclari()
+        public TahlilSonuclariForm()
         {
             InitializeComponent();
         }

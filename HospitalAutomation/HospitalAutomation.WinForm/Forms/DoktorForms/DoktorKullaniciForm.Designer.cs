@@ -1,6 +1,6 @@
 ﻿namespace HospitalAutomation.WinForm.Forms.DoktorForms
 {
-    partial class DoktorKullanici
+    partial class DoktorKullaniciForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DoktorKullanici));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DoktorKullaniciForm));
             btnDoktorBilgileriGuncelle = new Button();
             mtxtDoktorTcKimlikNo = new MaskedTextBox();
             txtDoktorAd = new TextBox();

@@ -10,7 +10,7 @@
     <Compile Update="Forms\DoktorForms\DoktorBekleyenHastalarForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\DoktorForms\DoktorKullanici.cs">
+    <Compile Update="Forms\DoktorForms\DoktorKullaniciForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\DoktorForms\DoktorMuayeneForm.cs">
@@ -19,10 +19,25 @@
     <Compile Update="Forms\DoktorForms\DoktorNavigationForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\DoktorForms\DoktorRandevular.cs">
+    <Compile Update="Forms\DoktorForms\DoktorRandevularForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\DoktorForms\TahlilSonuclari.cs">
+    <Compile Update="Forms\DoktorForms\TahlilSonuclariForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\HastaForms\HastaKullaniciForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\HastaForms\HastaRandevuAlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\HastaForms\HastaRandevularımForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\HastaForms\HastaNavigationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\HastaForms\HastaRecetelerimForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\HastaKabulForms\HastaKabulForm.cs">

@@ -8,21 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace HospitalAutomation.WinForm.Forms.DoktorForms
+namespace HospitalAutomation.WinForm.Forms.HastaForms
 {
-    public partial class DoktorKullanici : Form
+    public partial class HastaRandevularımForm : Form
     {
-        public DoktorKullanici()
+        public HastaRandevularımForm()
         {
             InitializeComponent();
         }
 
-        private void DoktorKullanici_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnBekleyenHastaClose_Click(object sender, EventArgs e)
+        private void btnHastaRandevularimExit_Click(object sender, EventArgs e)
         {
             this.Dispose();
         }
