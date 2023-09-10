@@ -56,7 +56,7 @@ namespace HospitalAutomation.WinForm.Forms.AuthForms
             }
             else if (girisBilgisi == "Hasta Kabul")
             {
-                secilenForm = new YoneticiNavigationForm();
+                secilenForm = new HastaKabulForm();
                 secilenForm.ShowDialog();
             }
             else if (girisBilgisi == "Laboratuvar")
