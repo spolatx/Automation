@@ -38,5 +38,39 @@ namespace HospitalAutomation.Data.Repositories
             connection.Close();
 
         }
+        public List<HastaKabul> HastaSorgula(string tcno)
+        {
+            List<HastaKabul> hastaKabulList = new List<HastaKabul>();
+            var connection = new DbConnectionHelper().Connection;
+            SqlCommand command = new SqlCommand();
+            command.CommandType = System.Data.CommandType.Text;
+            command.CommandText = "select * from HastaKabul where TcNo='" + tcno + "'";
+            //command.Parameters.AddWithValue("@p1", tcno);
+            command.Connection = connection;
+            connection.Open();
+            var reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                var hastaKabul = new HastaKabul();
+                hastaKabul.TcNo = reader.GetString(1);
+                hastaKabul.Ad = reader.GetString(2);
+                hastaKabul.Soyad = reader.GetString(3);
+                hastaKabul.CinsiyetId = reader.GetInt32(4);
+                hastaKabul.KanGrubuId = reader.GetInt32(5);
+                hastaKabul.DogumYeriId = reader.GetInt32(6);
+                hastaKabul.DogumTarihi = reader.GetDateTime(7);
+                hastaKabul.CepTel = reader.GetString(8);
+                hastaKabul.Istel = reader.GetString(9);
+                hastaKabul.IlId = reader.GetInt32(10);
+                hastaKabul.IlceId = reader.GetInt32(11);
+                hastaKabul.PoliklinikId = reader.GetInt32(12);
+                hastaKabul.DoktorId = reader.GetInt32(13);
+                hastaKabulList.Add(hastaKabul);
+            }
+            reader.Close();
+            connection.Close();
+            return hastaKabulList;
+
+        }
     }
 }

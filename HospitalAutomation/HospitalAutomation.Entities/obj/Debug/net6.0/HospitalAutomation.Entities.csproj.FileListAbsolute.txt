@@ -80,3 +80,14 @@ C:\Users\muratacar\Desktop\enedlaeldk\Automation\HospitalAutomation\HospitalAuto
 C:\Users\muratacar\Desktop\enedlaeldk\Automation\HospitalAutomation\HospitalAutomation.Entities\obj\Debug\net6.0\refint\HospitalAutomation.Entities.dll
 C:\Users\muratacar\Desktop\enedlaeldk\Automation\HospitalAutomation\HospitalAutomation.Entities\obj\Debug\net6.0\HospitalAutomation.Entities.pdb
 C:\Users\muratacar\Desktop\enedlaeldk\Automation\HospitalAutomation\HospitalAutomation.Entities\obj\Debug\net6.0\ref\HospitalAutomation.Entities.dll
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Entities\bin\Debug\net6.0\HospitalAutomation.Entities.deps.json
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Entities\bin\Debug\net6.0\HospitalAutomation.Entities.dll
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Entities\bin\Debug\net6.0\HospitalAutomation.Entities.pdb
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Entities\obj\Debug\net6.0\HospitalAutomation.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Entities\obj\Debug\net6.0\HospitalAutomation.Entities.AssemblyInfoInputs.cache
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Entities\obj\Debug\net6.0\HospitalAutomation.Entities.AssemblyInfo.cs
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Entities\obj\Debug\net6.0\HospitalAutomation.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Entities\obj\Debug\net6.0\HospitalAutomation.Entities.dll
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Entities\obj\Debug\net6.0\refint\HospitalAutomation.Entities.dll
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Entities\obj\Debug\net6.0\HospitalAutomation.Entities.pdb
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Entities\obj\Debug\net6.0\ref\HospitalAutomation.Entities.dll

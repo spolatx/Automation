@@ -23,7 +23,7 @@ namespace HospitalAutomation.Data.Repositories
             command.CommandType=System.Data.CommandType.Text;
             command.Connection = connection;
             connection.Open();
-            command.CommandText = "Select * from Iller";
+            command.CommandText = "Select * from iller";
 
             var reader =command.ExecuteReader();
             while (reader.Read())

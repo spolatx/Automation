@@ -131,3 +131,22 @@ C:\Users\muratacar\Desktop\enedlaeldk\Automation\HospitalAutomation\HospitalAuto
 C:\Users\muratacar\Desktop\enedlaeldk\Automation\HospitalAutomation\HospitalAutomation.Business\obj\Debug\net6.0\refint\HospitalAutomation.Business.dll
 C:\Users\muratacar\Desktop\enedlaeldk\Automation\HospitalAutomation\HospitalAutomation.Business\obj\Debug\net6.0\HospitalAutomation.Business.pdb
 C:\Users\muratacar\Desktop\enedlaeldk\Automation\HospitalAutomation\HospitalAutomation.Business\obj\Debug\net6.0\ref\HospitalAutomation.Business.dll
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Business\bin\Debug\net6.0\HospitalAutomation.Business.deps.json
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Business\bin\Debug\net6.0\HospitalAutomation.Business.dll
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Business\bin\Debug\net6.0\HospitalAutomation.Business.pdb
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Business\bin\Debug\net6.0\HospitalAutomation.Data.dll
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Business\bin\Debug\net6.0\HospitalAutomation.Dtos.dll
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Business\bin\Debug\net6.0\HospitalAutomation.Entities.dll
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Business\bin\Debug\net6.0\HospitalAutomation.Data.pdb
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Business\bin\Debug\net6.0\HospitalAutomation.Dtos.pdb
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Business\bin\Debug\net6.0\HospitalAutomation.Entities.pdb
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Business\obj\Debug\net6.0\HospitalAutomation.Business.csproj.AssemblyReference.cache
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Business\obj\Debug\net6.0\HospitalAutomation.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Business\obj\Debug\net6.0\HospitalAutomation.Business.AssemblyInfoInputs.cache
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Business\obj\Debug\net6.0\HospitalAutomation.Business.AssemblyInfo.cs
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Business\obj\Debug\net6.0\HospitalAutomation.Business.csproj.CoreCompileInputs.cache
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Business\obj\Debug\net6.0\HospitalAutomation.Business.csproj.CopyComplete
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Business\obj\Debug\net6.0\HospitalAutomation.Business.dll
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Business\obj\Debug\net6.0\refint\HospitalAutomation.Business.dll
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Business\obj\Debug\net6.0\HospitalAutomation.Business.pdb
+C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Business\obj\Debug\net6.0\ref\HospitalAutomation.Business.dll
