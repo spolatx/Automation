@@ -10,6 +10,9 @@
     <Compile Update="Forms\DoktorForms\DoktorBekleyenHastalarForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\DoktorForms\DoktorKullanici.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\DoktorForms\DoktorMuayeneForm.cs">
       <SubType>Form</SubType>
     </Compile>

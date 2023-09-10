@@ -87,6 +87,7 @@
             btnDoktorKullanici.Text = "Kullanıcı";
             btnDoktorKullanici.TextAlign = ContentAlignment.BottomCenter;
             btnDoktorKullanici.UseVisualStyleBackColor = false;
+            btnDoktorKullanici.Click += btnDoktorKullanici_Click;
             // 
             // btnDoktorBekleyenHasta
             // 

@@ -40,5 +40,10 @@ namespace HospitalAutomation.WinForm.Forms.DoktorForms
             tahlilSonuclari.ShowDialog();
         }
 
+        private void btnDoktorKullanici_Click(object sender, EventArgs e)
+        {
+            DoktorKullanici doktorKullanici = new DoktorKullanici();
+            doktorKullanici.ShowDialog();
+        }
     }
 }
