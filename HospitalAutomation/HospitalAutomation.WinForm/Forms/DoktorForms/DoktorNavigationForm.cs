@@ -27,5 +27,18 @@ namespace HospitalAutomation.WinForm.Forms.DoktorForms
         {
             this.Dispose();
         }
+
+        private void btnDoktorRandevular_Click(object sender, EventArgs e)
+        {
+            DoktorRandevular doktorRandevular = new DoktorRandevular();
+            doktorRandevular.ShowDialog();
+        }
+
+        private void btnDoktorTahlilSonuclari_Click(object sender, EventArgs e)
+        {
+            TahlilSonuclari tahlilSonuclari = new TahlilSonuclari();
+            tahlilSonuclari.ShowDialog();
+        }
+
     }
 }

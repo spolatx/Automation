@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TahlilSonuclari));
             label1 = new Label();
             btnTahlilSonuclariClose = new Button();
-            dataGridView1 = new DataGridView();
+            dgvTahlilSonuclari = new DataGridView();
             btnTahlilHastaTcSorgula = new Button();
             mtxtTahlilHastaTcKimlikNo = new MaskedTextBox();
             label4 = new Label();
@@ -40,7 +40,7 @@
             txtTahlilRecete = new TextBox();
             label10 = new Label();
             txtTahlilTani = new TextBox();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvTahlilSonuclari).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -65,15 +65,16 @@
             btnTahlilSonuclariClose.Size = new Size(30, 30);
             btnTahlilSonuclariClose.TabIndex = 15;
             btnTahlilSonuclariClose.UseVisualStyleBackColor = false;
+            btnTahlilSonuclariClose.Click += btnTahlilSonuclariClose_Click;
             // 
-            // dataGridView1
+            // dgvTahlilSonuclari
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(12, 88);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(1083, 240);
-            dataGridView1.TabIndex = 17;
+            dgvTahlilSonuclari.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvTahlilSonuclari.Location = new Point(12, 88);
+            dgvTahlilSonuclari.Name = "dgvTahlilSonuclari";
+            dgvTahlilSonuclari.RowTemplate.Height = 25;
+            dgvTahlilSonuclari.Size = new Size(1083, 240);
+            dgvTahlilSonuclari.TabIndex = 17;
             // 
             // btnTahlilHastaTcSorgula
             // 
@@ -167,7 +168,7 @@
             Controls.Add(btnTahlilHastaTcSorgula);
             Controls.Add(mtxtTahlilHastaTcKimlikNo);
             Controls.Add(label4);
-            Controls.Add(dataGridView1);
+            Controls.Add(dgvTahlilSonuclari);
             Controls.Add(label1);
             Controls.Add(btnTahlilSonuclariClose);
             Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
@@ -175,7 +176,7 @@
             Name = "TahlilSonuclari";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "TahlilSonuclari";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvTahlilSonuclari).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -184,7 +185,7 @@
 
         private Label label1;
         private Button btnTahlilSonuclariClose;
-        private DataGridView dataGridView1;
+        private DataGridView dgvTahlilSonuclari;
         private Button btnTahlilHastaTcSorgula;
         private MaskedTextBox mtxtTahlilHastaTcKimlikNo;
         private Label label4;

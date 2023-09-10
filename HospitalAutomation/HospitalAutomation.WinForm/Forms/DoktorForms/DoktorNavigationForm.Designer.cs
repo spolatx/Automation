@@ -35,7 +35,6 @@
             btnDoktorKullanici = new Button();
             btnDoktorBekleyenHasta = new Button();
             btnDoktorRandevular = new Button();
-            btnDoktorRandevuSil = new Button();
             btnDoktorTahlilSonuclari = new Button();
             SuspendLayout();
             // 
@@ -81,7 +80,7 @@
             btnDoktorKullanici.ForeColor = Color.White;
             btnDoktorKullanici.Image = (Image)resources.GetObject("btnDoktorKullanici.Image");
             btnDoktorKullanici.ImageAlign = ContentAlignment.TopCenter;
-            btnDoktorKullanici.Location = new Point(31, 99);
+            btnDoktorKullanici.Location = new Point(122, 102);
             btnDoktorKullanici.Name = "btnDoktorKullanici";
             btnDoktorKullanici.Size = new Size(128, 80);
             btnDoktorKullanici.TabIndex = 15;
@@ -98,7 +97,7 @@
             btnDoktorBekleyenHasta.ForeColor = Color.White;
             btnDoktorBekleyenHasta.Image = (Image)resources.GetObject("btnDoktorBekleyenHasta.Image");
             btnDoktorBekleyenHasta.ImageAlign = ContentAlignment.TopCenter;
-            btnDoktorBekleyenHasta.Location = new Point(433, 99);
+            btnDoktorBekleyenHasta.Location = new Point(390, 102);
             btnDoktorBekleyenHasta.Name = "btnDoktorBekleyenHasta";
             btnDoktorBekleyenHasta.Size = new Size(128, 80);
             btnDoktorBekleyenHasta.TabIndex = 18;
@@ -116,30 +115,14 @@
             btnDoktorRandevular.ForeColor = Color.White;
             btnDoktorRandevular.Image = (Image)resources.GetObject("btnDoktorRandevular.Image");
             btnDoktorRandevular.ImageAlign = ContentAlignment.TopCenter;
-            btnDoktorRandevular.Location = new Point(165, 99);
+            btnDoktorRandevular.Location = new Point(256, 102);
             btnDoktorRandevular.Name = "btnDoktorRandevular";
             btnDoktorRandevular.Size = new Size(128, 80);
             btnDoktorRandevular.TabIndex = 16;
             btnDoktorRandevular.Text = "Randevularım";
             btnDoktorRandevular.TextAlign = ContentAlignment.BottomCenter;
             btnDoktorRandevular.UseVisualStyleBackColor = false;
-            // 
-            // btnDoktorRandevuSil
-            // 
-            btnDoktorRandevuSil.BackColor = Color.Maroon;
-            btnDoktorRandevuSil.FlatAppearance.BorderSize = 0;
-            btnDoktorRandevuSil.FlatStyle = FlatStyle.Flat;
-            btnDoktorRandevuSil.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            btnDoktorRandevuSil.ForeColor = Color.White;
-            btnDoktorRandevuSil.Image = (Image)resources.GetObject("btnDoktorRandevuSil.Image");
-            btnDoktorRandevuSil.ImageAlign = ContentAlignment.TopCenter;
-            btnDoktorRandevuSil.Location = new Point(299, 99);
-            btnDoktorRandevuSil.Name = "btnDoktorRandevuSil";
-            btnDoktorRandevuSil.Size = new Size(128, 80);
-            btnDoktorRandevuSil.TabIndex = 17;
-            btnDoktorRandevuSil.Text = "Randevu Sil";
-            btnDoktorRandevuSil.TextAlign = ContentAlignment.BottomCenter;
-            btnDoktorRandevuSil.UseVisualStyleBackColor = false;
+            btnDoktorRandevular.Click += btnDoktorRandevular_Click;
             // 
             // btnDoktorTahlilSonuclari
             // 
@@ -150,13 +133,14 @@
             btnDoktorTahlilSonuclari.ForeColor = Color.White;
             btnDoktorTahlilSonuclari.Image = (Image)resources.GetObject("btnDoktorTahlilSonuclari.Image");
             btnDoktorTahlilSonuclari.ImageAlign = ContentAlignment.TopCenter;
-            btnDoktorTahlilSonuclari.Location = new Point(567, 99);
+            btnDoktorTahlilSonuclari.Location = new Point(524, 102);
             btnDoktorTahlilSonuclari.Name = "btnDoktorTahlilSonuclari";
             btnDoktorTahlilSonuclari.Size = new Size(128, 80);
             btnDoktorTahlilSonuclari.TabIndex = 22;
             btnDoktorTahlilSonuclari.Text = "Tahlil Sonuçları";
             btnDoktorTahlilSonuclari.TextAlign = ContentAlignment.BottomCenter;
             btnDoktorTahlilSonuclari.UseVisualStyleBackColor = false;
+            btnDoktorTahlilSonuclari.Click += btnDoktorTahlilSonuclari_Click;
             // 
             // DoktorNavigationForm
             // 
@@ -170,7 +154,6 @@
             Controls.Add(btnDoktorKullanici);
             Controls.Add(btnDoktorBekleyenHasta);
             Controls.Add(btnDoktorRandevular);
-            Controls.Add(btnDoktorRandevuSil);
             Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
@@ -189,7 +172,6 @@
         private Button btnDoktorKullanici;
         private Button btnDoktorBekleyenHasta;
         private Button btnDoktorRandevular;
-        private Button btnDoktorRandevuSil;
         private Button btnDoktorTahlilSonuclari;
     }
 }

@@ -178,19 +178,6 @@
         TkSuQmCC
 </value>
   </data>
-  <data name="btnDoktorRandevuSil.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAcxJREFUaEPt
-        mVmOgzAQROcIuf+lwo2YqlRZYuKwGNxNRvKTUMC9+Snkw8rPO3MMT1wPj8hBc0PIldHMefbjZdyukCej
-        eSEikz9zZDQrROSBK09Gc/qL+D5PRjNiRAhuc2TUP06E4DFeRr1jRQiWYmXUN16EYDlORj1zRAhCMTLq
-        lydCEO4vo165IgQpfWXUJ1+EIK2fjHr0FznJ023acYNvETm/D9d3EzmLtzFEhkhvvI0hMkR6420MkSHS
-        G29jiAyR3ngbQyRNBCN4cFo9PGGdB6zJjx9hrXvU5xYsvvBjGBhx6STIGteSWtiBDJHTx1rmuoawR12r
-        WM5vBGOaZZjjXPJZgiieI0Iw6rAMY84h6xJEOXkiBON2ZbjmGNmWIMrLFSEYuSrDe6+RfQmi3HwRgrGV
-        jK82CaL8e0QIRr/LtEsQ1dwnQjB+KUPaJIjqvkKkfBPk9Zo5fAzV3f5qLV+n5Wv2P14tjK1+2L7aZZSf
-        L4KRlYRDJdYmo9xcEYxblShwzTGyL6O8PBGM2pUoMOYcsi2jnBCqMwPWDksUmONcsi6jeAh/zgx4bpYo
-        MNc1ZPubicYbIE0SBda4lpz/Z+sqGM5NnJIosFY95ukX8eRixh5DdMwAAAAASUVORK5CYII=
-</value>
-  </data>
   <data name="btnDoktorTahlilSonuclari.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAaRJREFUaEPt
