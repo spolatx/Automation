@@ -1,4 +1,5 @@
 ﻿using HospitalAutomation.WinForm.Forms.DoktorForms;
+using HospitalAutomation.WinForm.Forms.HastaForms;
 using HospitalAutomation.WinForm.Forms.HastaKabulForms;
 using HospitalAutomation.WinForm.Forms.LaboratuvarForms;
 using System;
@@ -38,9 +39,10 @@ namespace HospitalAutomation.WinForm.Forms.AuthForms
             Form secilenForm;
             switch (girisBilgisi)
             {
-                //case "Hasta":
-
-                //    break;
+                case "Hasta":
+                    secilenForm = new HastaNavigationForm();
+                    secilenForm.ShowDialog();
+                    break;
                 case "Doktor":
                     secilenForm = new DoktorNavigationForm();
                     secilenForm.ShowDialog();

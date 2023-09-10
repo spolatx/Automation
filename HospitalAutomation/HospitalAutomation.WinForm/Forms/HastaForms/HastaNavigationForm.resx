@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnDoktorTahlilSonuclari.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnHastaRecetelerim.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAaRJREFUaEPt
         mu1twzAMRD1SRshmzQbthskG7QauPl4JCIlZiqqUoOAD/MNHHU8HFMgPdwv+I/u+n9NzTU8v2XNmzfPh
@@ -139,7 +139,7 @@
         oLoXWWNWXz4Z7IOFDpCfF8ffjJNviG5HJmDA6JzCOwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="btnDoktorKullanici.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnHastaKullanici.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAqNJREFUaEPt
         mf9R3DAQha8ESqAEOoAOSAekg6SD0EHoADogHYQOoIOkA9KB877T2+C54c6SxVm6ib+Z/ePkXe2TpdMv
@@ -156,7 +156,7 @@
         c2VlJYvN5i9Km9nZA3E7PwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="btnDoktorBekleyenHasta.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnHastaRandevuAl.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAspJREFUaEPt
         moFR4zAQRVMCJVwJlEAHRwdHB9AJdACdHB1AB9ABdJDbLz1JOLJsOVaEucmb0eDdv7vSji3bSdjVst/v
@@ -174,7 +174,7 @@
         RU5ErkJggg==
 </value>
   </data>
-  <data name="btnDoktorRandevular.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnHastaRandevular.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAWFJREFUaEPt
         moENgjAQRRnJERzFzXUD2QDv6CtVS7XaGg5zLyGhvevv/9EEAgy1TNN0lOMsR0TPj5SbUS00I131FxB+

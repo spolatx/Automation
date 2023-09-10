@@ -21,5 +21,29 @@ namespace HospitalAutomation.WinForm.Forms.HastaForms
         {
             this.Dispose();
         }
+
+        private void btnHastaKullanici_Click(object sender, EventArgs e)
+        {
+            HastaKullaniciForm hastaKullaniciForm=new HastaKullaniciForm();
+            hastaKullaniciForm.ShowDialog();
+        }
+
+        private void btnHastaRandevular_Click(object sender, EventArgs e)
+        {
+            HastaRandevularımForm hastaRandevularımForm=new HastaRandevularımForm();
+            hastaRandevularımForm.ShowDialog();
+        }
+
+        private void btnHastaRandevuAl_Click(object sender, EventArgs e)
+        {
+            HastaRandevuAlForm hastaRandevuAlForm=new HastaRandevuAlForm();
+            hastaRandevuAlForm.ShowDialog();
+        }
+
+        private void btnHastaRecetelerim_Click(object sender, EventArgs e)
+        {
+            HastaRecetelerimForm hastaRecetelerimForm=  new HastaRecetelerimForm();
+            hastaRecetelerimForm.ShowDialog();
+        }
     }
 }

@@ -218,6 +218,11 @@ C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomat
 C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\HospitalAutomation.WinForm.Forms.DoktorForms.DoktorNavigationForm.resources
 C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\HospitalAutomation.WinForm.Forms.LaboratuvarForms.LaboratuvarForm.resources
 C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\HospitalAutomation.WinForm.Forms.LaboratuvarForms.LaboratuvarSonucForm.resources
-C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\HospitalAutomation.WinForm.Forms.DoktorForms.DoktorKullanici.resources
-C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\HospitalAutomation.WinForm.Forms.DoktorForms.DoktorRandevular.resources
-C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\HospitalAutomation.WinForm.Forms.DoktorForms.TahlilSonuclari.resources
+C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\HospitalAutomation.WinForm.Forms.DoktorForms.DoktorKullaniciForm.resources
+C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\HospitalAutomation.WinForm.Forms.DoktorForms.DoktorRandevularForm.resources
+C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\HospitalAutomation.WinForm.Forms.DoktorForms.TahlilSonuclariForm.resources
+C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\HospitalAutomation.WinForm.Forms.HastaForms.HastaKullaniciForm.resources
+C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\HospitalAutomation.WinForm.Forms.HastaForms.HastaNavigationForm.resources
+C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\HospitalAutomation.WinForm.Forms.HastaForms.HastaRandevuAlForm.resources
+C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\HospitalAutomation.WinForm.Forms.HastaForms.HastaRandevularımForm.resources
+C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\HospitalAutomation.WinForm.Forms.HastaForms.HastaRecetelerimForm.resources

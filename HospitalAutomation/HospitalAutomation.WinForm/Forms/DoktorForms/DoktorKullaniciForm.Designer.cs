@@ -51,6 +51,7 @@
             txtDoktorEskiParolaTekrar = new TextBox();
             label5 = new Label();
             btnDoktorBilgileriClose = new Button();
+            label6 = new Label();
             SuspendLayout();
             // 
             // btnDoktorBilgileriGuncelle
@@ -60,7 +61,7 @@
             btnDoktorBilgileriGuncelle.FlatStyle = FlatStyle.Flat;
             btnDoktorBilgileriGuncelle.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnDoktorBilgileriGuncelle.ForeColor = Color.White;
-            btnDoktorBilgileriGuncelle.Location = new Point(342, 420);
+            btnDoktorBilgileriGuncelle.Location = new Point(342, 446);
             btnDoktorBilgileriGuncelle.Name = "btnDoktorBilgileriGuncelle";
             btnDoktorBilgileriGuncelle.Size = new Size(152, 39);
             btnDoktorBilgileriGuncelle.TabIndex = 90;
@@ -69,7 +70,7 @@
             // 
             // mtxtDoktorTcKimlikNo
             // 
-            mtxtDoktorTcKimlikNo.Location = new Point(217, 69);
+            mtxtDoktorTcKimlikNo.Location = new Point(217, 95);
             mtxtDoktorTcKimlikNo.Mask = "00000000000";
             mtxtDoktorTcKimlikNo.Name = "mtxtDoktorTcKimlikNo";
             mtxtDoktorTcKimlikNo.ReadOnly = true;
@@ -78,7 +79,7 @@
             // 
             // txtDoktorAd
             // 
-            txtDoktorAd.Location = new Point(217, 102);
+            txtDoktorAd.Location = new Point(217, 128);
             txtDoktorAd.Name = "txtDoktorAd";
             txtDoktorAd.ReadOnly = true;
             txtDoktorAd.Size = new Size(277, 27);
@@ -86,7 +87,7 @@
             // 
             // txtDoktorSoyad
             // 
-            txtDoktorSoyad.Location = new Point(217, 135);
+            txtDoktorSoyad.Location = new Point(217, 161);
             txtDoktorSoyad.Name = "txtDoktorSoyad";
             txtDoktorSoyad.ReadOnly = true;
             txtDoktorSoyad.Size = new Size(277, 27);
@@ -95,7 +96,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(141, 105);
+            label2.Location = new Point(141, 131);
             label2.Name = "label2";
             label2.Size = new Size(42, 21);
             label2.TabIndex = 91;
@@ -104,7 +105,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(117, 138);
+            label3.Location = new Point(117, 164);
             label3.Name = "label3";
             label3.Size = new Size(66, 21);
             label3.TabIndex = 92;
@@ -112,7 +113,7 @@
             // 
             // mtxtDoktorCepTelefonu
             // 
-            mtxtDoktorCepTelefonu.Location = new Point(217, 231);
+            mtxtDoktorCepTelefonu.Location = new Point(217, 257);
             mtxtDoktorCepTelefonu.Mask = "(999) 000-0000";
             mtxtDoktorCepTelefonu.Name = "mtxtDoktorCepTelefonu";
             mtxtDoktorCepTelefonu.Size = new Size(277, 27);
@@ -121,7 +122,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(144, 72);
+            label4.Location = new Point(144, 98);
             label4.Name = "label4";
             label4.Size = new Size(39, 21);
             label4.TabIndex = 93;
@@ -130,7 +131,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(106, 234);
+            label7.Location = new Point(106, 260);
             label7.Name = "label7";
             label7.Size = new Size(77, 21);
             label7.TabIndex = 96;
@@ -139,7 +140,7 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(63, 171);
+            label9.Location = new Point(63, 197);
             label9.Name = "label9";
             label9.Size = new Size(120, 21);
             label9.TabIndex = 98;
@@ -147,7 +148,7 @@
             // 
             // txtDoktorKullaniciAdi
             // 
-            txtDoktorKullaniciAdi.Location = new Point(217, 36);
+            txtDoktorKullaniciAdi.Location = new Point(217, 62);
             txtDoktorKullaniciAdi.Name = "txtDoktorKullaniciAdi";
             txtDoktorKullaniciAdi.ReadOnly = true;
             txtDoktorKullaniciAdi.Size = new Size(277, 27);
@@ -156,7 +157,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(72, 39);
+            label1.Location = new Point(72, 65);
             label1.Name = "label1";
             label1.Size = new Size(111, 21);
             label1.TabIndex = 104;
@@ -164,7 +165,7 @@
             // 
             // txtDoktorDogumTarihi
             // 
-            txtDoktorDogumTarihi.Location = new Point(217, 168);
+            txtDoktorDogumTarihi.Location = new Point(217, 194);
             txtDoktorDogumTarihi.Name = "txtDoktorDogumTarihi";
             txtDoktorDogumTarihi.ReadOnly = true;
             txtDoktorDogumTarihi.Size = new Size(277, 27);
@@ -173,7 +174,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(119, 267);
+            label8.Location = new Point(119, 293);
             label8.Name = "label8";
             label8.Size = new Size(64, 21);
             label8.TabIndex = 108;
@@ -181,7 +182,7 @@
             // 
             // txtDoktorEskiParola
             // 
-            txtDoktorEskiParola.Location = new Point(217, 297);
+            txtDoktorEskiParola.Location = new Point(217, 323);
             txtDoktorEskiParola.Name = "txtDoktorEskiParola";
             txtDoktorEskiParola.Size = new Size(277, 27);
             txtDoktorEskiParola.TabIndex = 111;
@@ -190,7 +191,7 @@
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(86, 300);
+            label10.Location = new Point(86, 326);
             label10.Name = "label10";
             label10.Size = new Size(97, 21);
             label10.TabIndex = 110;
@@ -198,7 +199,7 @@
             // 
             // txtDoktoryYeniParola
             // 
-            txtDoktoryYeniParola.Location = new Point(217, 330);
+            txtDoktoryYeniParola.Location = new Point(217, 356);
             txtDoktoryYeniParola.Name = "txtDoktoryYeniParola";
             txtDoktoryYeniParola.Size = new Size(277, 27);
             txtDoktoryYeniParola.TabIndex = 113;
@@ -207,7 +208,7 @@
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(78, 333);
+            label11.Location = new Point(78, 359);
             label11.Name = "label11";
             label11.Size = new Size(105, 21);
             label11.TabIndex = 112;
@@ -215,14 +216,14 @@
             // 
             // txtDoktorEmail
             // 
-            txtDoktorEmail.Location = new Point(217, 264);
+            txtDoktorEmail.Location = new Point(217, 290);
             txtDoktorEmail.Name = "txtDoktorEmail";
             txtDoktorEmail.Size = new Size(277, 27);
             txtDoktorEmail.TabIndex = 109;
             // 
             // txtDoktorEskiParolaTekrar
             // 
-            txtDoktorEskiParolaTekrar.Location = new Point(217, 363);
+            txtDoktorEskiParolaTekrar.Location = new Point(217, 389);
             txtDoktorEskiParolaTekrar.Name = "txtDoktorEskiParolaTekrar";
             txtDoktorEskiParolaTekrar.Size = new Size(277, 27);
             txtDoktorEskiParolaTekrar.TabIndex = 115;
@@ -231,7 +232,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(27, 366);
+            label5.Location = new Point(27, 392);
             label5.Name = "label5";
             label5.Size = new Size(156, 21);
             label5.TabIndex = 114;
@@ -251,11 +252,22 @@
             btnDoktorBilgileriClose.UseVisualStyleBackColor = false;
             btnDoktorBilgileriClose.Click += btnBekleyenHastaClose_Click;
             // 
-            // DoktorKullanici
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Century Gothic", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.Location = new Point(192, 12);
+            label6.Name = "label6";
+            label6.Size = new Size(198, 32);
+            label6.TabIndex = 117;
+            label6.Text = "Doktor Bilgileri";
+            // 
+            // DoktorKullaniciForm
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.White;
-            ClientSize = new Size(580, 497);
+            ClientSize = new Size(580, 512);
+            Controls.Add(label6);
             Controls.Add(btnDoktorBilgileriClose);
             Controls.Add(txtDoktorEskiParolaTekrar);
             Controls.Add(label5);
@@ -280,7 +292,7 @@
             Controls.Add(label9);
             Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "DoktorKullanici";
+            Name = "DoktorKullaniciForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "DoktorKullanici";
             Load += DoktorKullanici_Load;
@@ -312,5 +324,6 @@
         private TextBox txtDoktorEskiParolaTekrar;
         private Label label5;
         private Button btnDoktorBilgileriClose;
+        private Label label6;
     }
 }

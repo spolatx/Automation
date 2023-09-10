@@ -29,31 +29,32 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HastaNavigationForm));
-            btnDoktorTahlilSonuclari = new Button();
+            btnHastaRecetelerim = new Button();
             label2 = new Label();
             label1 = new Label();
             btnHastaNavigationExit = new Button();
-            btnDoktorKullanici = new Button();
-            btnDoktorBekleyenHasta = new Button();
-            btnDoktorRandevular = new Button();
+            btnHastaKullanici = new Button();
+            btnHastaRandevuAl = new Button();
+            btnHastaRandevular = new Button();
             SuspendLayout();
             // 
-            // btnDoktorTahlilSonuclari
+            // btnHastaRecetelerim
             // 
-            btnDoktorTahlilSonuclari.BackColor = Color.Maroon;
-            btnDoktorTahlilSonuclari.FlatAppearance.BorderSize = 0;
-            btnDoktorTahlilSonuclari.FlatStyle = FlatStyle.Flat;
-            btnDoktorTahlilSonuclari.Font = new Font("Century Gothic", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            btnDoktorTahlilSonuclari.ForeColor = Color.White;
-            btnDoktorTahlilSonuclari.Image = (Image)resources.GetObject("btnDoktorTahlilSonuclari.Image");
-            btnDoktorTahlilSonuclari.ImageAlign = ContentAlignment.TopCenter;
-            btnDoktorTahlilSonuclari.Location = new Point(524, 102);
-            btnDoktorTahlilSonuclari.Name = "btnDoktorTahlilSonuclari";
-            btnDoktorTahlilSonuclari.Size = new Size(128, 80);
-            btnDoktorTahlilSonuclari.TabIndex = 29;
-            btnDoktorTahlilSonuclari.Text = "Reçetelerim";
-            btnDoktorTahlilSonuclari.TextAlign = ContentAlignment.BottomCenter;
-            btnDoktorTahlilSonuclari.UseVisualStyleBackColor = false;
+            btnHastaRecetelerim.BackColor = Color.Maroon;
+            btnHastaRecetelerim.FlatAppearance.BorderSize = 0;
+            btnHastaRecetelerim.FlatStyle = FlatStyle.Flat;
+            btnHastaRecetelerim.Font = new Font("Century Gothic", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            btnHastaRecetelerim.ForeColor = Color.White;
+            btnHastaRecetelerim.Image = (Image)resources.GetObject("btnHastaRecetelerim.Image");
+            btnHastaRecetelerim.ImageAlign = ContentAlignment.TopCenter;
+            btnHastaRecetelerim.Location = new Point(524, 102);
+            btnHastaRecetelerim.Name = "btnHastaRecetelerim";
+            btnHastaRecetelerim.Size = new Size(128, 80);
+            btnHastaRecetelerim.TabIndex = 29;
+            btnHastaRecetelerim.Text = "Reçetelerim";
+            btnHastaRecetelerim.TextAlign = ContentAlignment.BottomCenter;
+            btnHastaRecetelerim.UseVisualStyleBackColor = false;
+            btnHastaRecetelerim.Click += btnHastaRecetelerim_Click;
             // 
             // label2
             // 
@@ -88,72 +89,75 @@
             btnHastaNavigationExit.UseVisualStyleBackColor = false;
             btnHastaNavigationExit.Click += btnHastaNavigationExit_Click;
             // 
-            // btnDoktorKullanici
+            // btnHastaKullanici
             // 
-            btnDoktorKullanici.BackColor = Color.Maroon;
-            btnDoktorKullanici.FlatAppearance.BorderSize = 0;
-            btnDoktorKullanici.FlatStyle = FlatStyle.Flat;
-            btnDoktorKullanici.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            btnDoktorKullanici.ForeColor = Color.White;
-            btnDoktorKullanici.Image = (Image)resources.GetObject("btnDoktorKullanici.Image");
-            btnDoktorKullanici.ImageAlign = ContentAlignment.TopCenter;
-            btnDoktorKullanici.Location = new Point(122, 102);
-            btnDoktorKullanici.Name = "btnDoktorKullanici";
-            btnDoktorKullanici.Size = new Size(128, 80);
-            btnDoktorKullanici.TabIndex = 23;
-            btnDoktorKullanici.Text = "Kullanıcı";
-            btnDoktorKullanici.TextAlign = ContentAlignment.BottomCenter;
-            btnDoktorKullanici.UseVisualStyleBackColor = false;
+            btnHastaKullanici.BackColor = Color.Maroon;
+            btnHastaKullanici.FlatAppearance.BorderSize = 0;
+            btnHastaKullanici.FlatStyle = FlatStyle.Flat;
+            btnHastaKullanici.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnHastaKullanici.ForeColor = Color.White;
+            btnHastaKullanici.Image = (Image)resources.GetObject("btnHastaKullanici.Image");
+            btnHastaKullanici.ImageAlign = ContentAlignment.TopCenter;
+            btnHastaKullanici.Location = new Point(122, 102);
+            btnHastaKullanici.Name = "btnHastaKullanici";
+            btnHastaKullanici.Size = new Size(128, 80);
+            btnHastaKullanici.TabIndex = 23;
+            btnHastaKullanici.Text = "Kullanıcı";
+            btnHastaKullanici.TextAlign = ContentAlignment.BottomCenter;
+            btnHastaKullanici.UseVisualStyleBackColor = false;
+            btnHastaKullanici.Click += btnHastaKullanici_Click;
             // 
-            // btnDoktorBekleyenHasta
+            // btnHastaRandevuAl
             // 
-            btnDoktorBekleyenHasta.BackColor = Color.Maroon;
-            btnDoktorBekleyenHasta.FlatAppearance.BorderSize = 0;
-            btnDoktorBekleyenHasta.FlatStyle = FlatStyle.Flat;
-            btnDoktorBekleyenHasta.Font = new Font("Century Gothic", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            btnDoktorBekleyenHasta.ForeColor = Color.White;
-            btnDoktorBekleyenHasta.Image = (Image)resources.GetObject("btnDoktorBekleyenHasta.Image");
-            btnDoktorBekleyenHasta.ImageAlign = ContentAlignment.TopCenter;
-            btnDoktorBekleyenHasta.Location = new Point(390, 102);
-            btnDoktorBekleyenHasta.Name = "btnDoktorBekleyenHasta";
-            btnDoktorBekleyenHasta.Size = new Size(128, 80);
-            btnDoktorBekleyenHasta.TabIndex = 25;
-            btnDoktorBekleyenHasta.Text = "Randevu Sil";
-            btnDoktorBekleyenHasta.TextAlign = ContentAlignment.BottomCenter;
-            btnDoktorBekleyenHasta.UseVisualStyleBackColor = false;
+            btnHastaRandevuAl.BackColor = Color.Maroon;
+            btnHastaRandevuAl.FlatAppearance.BorderSize = 0;
+            btnHastaRandevuAl.FlatStyle = FlatStyle.Flat;
+            btnHastaRandevuAl.Font = new Font("Century Gothic", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            btnHastaRandevuAl.ForeColor = Color.White;
+            btnHastaRandevuAl.Image = (Image)resources.GetObject("btnHastaRandevuAl.Image");
+            btnHastaRandevuAl.ImageAlign = ContentAlignment.TopCenter;
+            btnHastaRandevuAl.Location = new Point(390, 102);
+            btnHastaRandevuAl.Name = "btnHastaRandevuAl";
+            btnHastaRandevuAl.Size = new Size(128, 80);
+            btnHastaRandevuAl.TabIndex = 25;
+            btnHastaRandevuAl.Text = "Randevu Al";
+            btnHastaRandevuAl.TextAlign = ContentAlignment.BottomCenter;
+            btnHastaRandevuAl.UseVisualStyleBackColor = false;
+            btnHastaRandevuAl.Click += btnHastaRandevuAl_Click;
             // 
-            // btnDoktorRandevular
+            // btnHastaRandevular
             // 
-            btnDoktorRandevular.BackColor = Color.Maroon;
-            btnDoktorRandevular.FlatAppearance.BorderSize = 0;
-            btnDoktorRandevular.FlatStyle = FlatStyle.Flat;
-            btnDoktorRandevular.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            btnDoktorRandevular.ForeColor = Color.White;
-            btnDoktorRandevular.Image = (Image)resources.GetObject("btnDoktorRandevular.Image");
-            btnDoktorRandevular.ImageAlign = ContentAlignment.TopCenter;
-            btnDoktorRandevular.Location = new Point(256, 102);
-            btnDoktorRandevular.Name = "btnDoktorRandevular";
-            btnDoktorRandevular.Size = new Size(128, 80);
-            btnDoktorRandevular.TabIndex = 24;
-            btnDoktorRandevular.Text = "Randevularım";
-            btnDoktorRandevular.TextAlign = ContentAlignment.BottomCenter;
-            btnDoktorRandevular.UseVisualStyleBackColor = false;
+            btnHastaRandevular.BackColor = Color.Maroon;
+            btnHastaRandevular.FlatAppearance.BorderSize = 0;
+            btnHastaRandevular.FlatStyle = FlatStyle.Flat;
+            btnHastaRandevular.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnHastaRandevular.ForeColor = Color.White;
+            btnHastaRandevular.Image = (Image)resources.GetObject("btnHastaRandevular.Image");
+            btnHastaRandevular.ImageAlign = ContentAlignment.TopCenter;
+            btnHastaRandevular.Location = new Point(256, 102);
+            btnHastaRandevular.Name = "btnHastaRandevular";
+            btnHastaRandevular.Size = new Size(128, 80);
+            btnHastaRandevular.TabIndex = 24;
+            btnHastaRandevular.Text = "Randevularım";
+            btnHastaRandevular.TextAlign = ContentAlignment.BottomCenter;
+            btnHastaRandevular.UseVisualStyleBackColor = false;
+            btnHastaRandevular.Click += btnHastaRandevular_Click;
             // 
-            // KullaniciNavigationForm
+            // HastaNavigationForm
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.White;
             ClientSize = new Size(720, 220);
-            Controls.Add(btnDoktorTahlilSonuclari);
+            Controls.Add(btnHastaRecetelerim);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(btnHastaNavigationExit);
-            Controls.Add(btnDoktorKullanici);
-            Controls.Add(btnDoktorBekleyenHasta);
-            Controls.Add(btnDoktorRandevular);
+            Controls.Add(btnHastaKullanici);
+            Controls.Add(btnHastaRandevuAl);
+            Controls.Add(btnHastaRandevular);
             Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "KullaniciNavigationForm";
+            Name = "HastaNavigationForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "KullaniciNavigationForm";
             ResumeLayout(false);
@@ -162,12 +166,12 @@
 
         #endregion
 
-        private Button btnDoktorTahlilSonuclari;
+        private Button btnHastaRecetelerim;
         private Label label2;
         private Label label1;
         private Button btnHastaNavigationExit;
-        private Button btnDoktorKullanici;
-        private Button btnDoktorBekleyenHasta;
-        private Button btnDoktorRandevular;
+        private Button btnHastaKullanici;
+        private Button btnHastaRandevuAl;
+        private Button btnHastaRandevular;
     }
 }

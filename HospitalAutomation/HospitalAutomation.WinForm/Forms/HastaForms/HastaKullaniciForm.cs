@@ -17,7 +17,7 @@ namespace HospitalAutomation.WinForm.Forms.HastaForms
             InitializeComponent();
         }
 
-        private void btnHastaKullaniciExit_Click(object sender, EventArgs e)
+        private void btnHastaBilgileriClose_Click(object sender, EventArgs e)
         {
             this.Dispose();
         }
