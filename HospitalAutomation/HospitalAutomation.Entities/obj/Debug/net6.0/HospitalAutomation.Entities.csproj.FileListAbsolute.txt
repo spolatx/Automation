@@ -91,3 +91,15 @@ C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\Ho
 C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Entities\obj\Debug\net6.0\refint\HospitalAutomation.Entities.dll
 C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Entities\obj\Debug\net6.0\HospitalAutomation.Entities.pdb
 C:\Users\Samet Polat\Desktop\YeniFormlarEklendi\Automation\HospitalAutomation\HospitalAutomation.Entities\obj\Debug\net6.0\ref\HospitalAutomation.Entities.dll
+C:\Users\gecic\source\repos\Automation5\HospitalAutomation\HospitalAutomation.Entities\bin\Debug\net6.0\HospitalAutomation.Entities.deps.json
+C:\Users\gecic\source\repos\Automation5\HospitalAutomation\HospitalAutomation.Entities\bin\Debug\net6.0\HospitalAutomation.Entities.dll
+C:\Users\gecic\source\repos\Automation5\HospitalAutomation\HospitalAutomation.Entities\bin\Debug\net6.0\HospitalAutomation.Entities.pdb
+C:\Users\gecic\source\repos\Automation5\HospitalAutomation\HospitalAutomation.Entities\obj\Debug\net6.0\HospitalAutomation.Entities.csproj.AssemblyReference.cache
+C:\Users\gecic\source\repos\Automation5\HospitalAutomation\HospitalAutomation.Entities\obj\Debug\net6.0\HospitalAutomation.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gecic\source\repos\Automation5\HospitalAutomation\HospitalAutomation.Entities\obj\Debug\net6.0\HospitalAutomation.Entities.AssemblyInfoInputs.cache
+C:\Users\gecic\source\repos\Automation5\HospitalAutomation\HospitalAutomation.Entities\obj\Debug\net6.0\HospitalAutomation.Entities.AssemblyInfo.cs
+C:\Users\gecic\source\repos\Automation5\HospitalAutomation\HospitalAutomation.Entities\obj\Debug\net6.0\HospitalAutomation.Entities.csproj.CoreCompileInputs.cache
+C:\Users\gecic\source\repos\Automation5\HospitalAutomation\HospitalAutomation.Entities\obj\Debug\net6.0\HospitalAutomation.Entities.dll
+C:\Users\gecic\source\repos\Automation5\HospitalAutomation\HospitalAutomation.Entities\obj\Debug\net6.0\refint\HospitalAutomation.Entities.dll
+C:\Users\gecic\source\repos\Automation5\HospitalAutomation\HospitalAutomation.Entities\obj\Debug\net6.0\HospitalAutomation.Entities.pdb
+C:\Users\gecic\source\repos\Automation5\HospitalAutomation\HospitalAutomation.Entities\obj\Debug\net6.0\ref\HospitalAutomation.Entities.dll

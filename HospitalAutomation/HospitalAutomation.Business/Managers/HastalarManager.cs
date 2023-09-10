@@ -25,6 +25,11 @@ namespace HospitalAutomation.Business.Managers
                 hastaDto.ID = hasta.Id;
                 hastaDto.HastaAd = hasta.HastaAd;
                 hastaDto.HastaSoyad = hasta.HastaSoyad;
+                hastaDto.tckimlikNo = hasta.TcKimlikNo;
+                hastaDto.Aciklama = hasta.Aciklama;
+                hastaDto.KanGrubuAdi = hasta.KanGrubu;
+                hastaDto.DogumYeri = hasta.DogumYeri;
+                hastaDto.DogumTarihi = hasta.DogumTarihi;
                 hastalarListDto.Add(hastaDto);
             }
 

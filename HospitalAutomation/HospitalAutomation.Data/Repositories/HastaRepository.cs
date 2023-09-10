@@ -20,7 +20,7 @@ namespace HospitalAutomation.Data.Repositories
 
             SqlCommand command = new SqlCommand();
             command.CommandType = System.Data.CommandType.Text;
-            command.CommandText = "Select * from Hastalar";
+            command.CommandText = "select * from hastalar inner join Cinsiyetler on hastalar.Cinsiyet = Cinsiyetler.Id inner join KanGrubu on hastalar.KanGrubuID = KanGrubu.ID inner join Iller on hastalar.DoğumYeriID = Iller.ID";
             command.Connection = connection;
 
             connection.Open();
@@ -31,6 +31,11 @@ namespace HospitalAutomation.Data.Repositories
                 hastalar.Id = reader.GetInt32(0);
                 hastalar.HastaAd = reader.GetString(1);
                 hastalar.HastaSoyad = reader.GetString(2);
+                hastalar.TcKimlikNo = reader.GetInt32(8);
+                hastalar.DogumTarihi = reader.GetString(9);
+                hastalar.Aciklama = reader.GetString(21);
+                hastalar.KanGrubu = reader.GetString(23);
+                hastalar.DogumYeri = reader.GetString(25);
                 hastalarList.Add(hastalar);
             }
             connection.Close();
