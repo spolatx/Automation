@@ -27,7 +27,7 @@ namespace HospitalAutomation.WinForm.Forms.HastaKabulForms
         private readonly IKanGrubuService kanGrubuService;
         private readonly IGenderService genderService;
         //private readonly IIlceService ilceService;
-
+        private RegisterHastalarDto hastalarDto;
         private GenderListDto selectedGender;
         public HastaKabulForm()
         {
@@ -84,7 +84,46 @@ namespace HospitalAutomation.WinForm.Forms.HastaKabulForms
 
         private void btnHastaTcSorgula_Click(object sender, EventArgs e)
         {
+            List<RegisterHastalarDto> registerHastalarDtoList = hastaKabulService.HastaSorgula(mtxtHastaTcKimlikNo.Text);
 
+            /*
+            if (mtxtHastaTcKimlikNo.Text==hastalarDto.TcNo)
+            {
+                txtHastaAd.Text = hastalarDto.Ad;
+                txtHastaSoyad.Text=hastalarDto.Soyad;
+                cmbHastaCinsiyet.SelectedIndex= hastalarDto.CinsiyetId;
+                cmbHastaKanGrubu.SelectedIndex = hastalarDto.KanGrubuId;
+                cmbHastaIl.SelectedIndex = hastalarDto.IlId;
+                cmbHastailce.SelectedIndex = hastalarDto.IlceId;
+                cmbHastaDogumYeri.SelectedIndex = hastalarDto.DogumYeriId;
+                dtpHastaDogumTarihi.Value = hastalarDto.DogumTarihi;
+                mtxtHastaCepTelefonu.Text = hastalarDto.CepTel;
+                mtxtHastaIsTelefonu.Text = hastalarDto.Istel;
+            }
+            else
+            {
+                MessageBox.Show("Uyarı","Hasta kayıtlı değil!",MessageBoxButtons.CancelTryContinue,MessageBoxIcon.Warning);
+            }
+            */
+
+            if (registerHastalarDtoList.Count == 0)
+            {
+                MessageBox.Show("Uyarı", "Hasta kayıtlı değil!", MessageBoxButtons.CancelTryContinue, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                hastalarDto = registerHastalarDtoList[0];
+                txtHastaAd.Text = hastalarDto.Ad;
+                txtHastaSoyad.Text = hastalarDto.Soyad;
+                cmbHastaCinsiyet.SelectedIndex = hastalarDto.CinsiyetId;
+                cmbHastaKanGrubu.SelectedIndex = hastalarDto.KanGrubuId;
+                cmbHastaIl.SelectedIndex = hastalarDto.IlId;
+                cmbHastailce.SelectedIndex = hastalarDto.IlceId;
+                cmbHastaDogumYeri.SelectedIndex = hastalarDto.DogumYeriId;
+                // dtpHastaDogumTarihi.Value = hastalarDto.DogumTarihi;
+                mtxtHastaCepTelefonu.Text = hastalarDto.CepTel;
+                mtxtHastaIsTelefonu.Text = hastalarDto.Istel;
+            }
         }
 
         private void cmbHastaCinsiyet_SelectedIndexChanged(object sender, EventArgs e)

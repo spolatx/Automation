@@ -10,5 +10,6 @@ namespace HospitalAutomation.Data.Interfaces
     public interface IHastaKabulListRepository
     {
         public void GetHastalar(HastaKabul hastaKabul);
+        public List<HastaKabul> HastaSorgula(string tcno);
     }
 }

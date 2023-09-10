@@ -10,5 +10,6 @@ namespace HospitalAutomation.Business.Interfaces
     public interface IHastaKabulService
     {
         public void CreateHastaKabul(RegisterHastalarDto hastalarDto);
+        public List<RegisterHastalarDto> HastaSorgula(string tcno);
     }
 }
