@@ -2,6 +2,7 @@
 using HospitalAutomation.WinForm.Forms.HastaForms;
 using HospitalAutomation.WinForm.Forms.HastaKabulForms;
 using HospitalAutomation.WinForm.Forms.LaboratuvarForms;
+using HospitalAutomation.WinForm.Forms.YoneticiForms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -48,9 +49,10 @@ namespace HospitalAutomation.WinForm.Forms.AuthForms
                     secilenForm.ShowDialog();
 
                     break;
-                //case "Yönetici":
-
-                //    break;
+                case "Yönetici":
+                    secilenForm = new YoneticiNavigationForm();
+                    secilenForm.ShowDialog();
+                    break;
                 case "Hasta Kabul":
                     secilenForm = new HastaKabulForm();
                     secilenForm.ShowDialog();

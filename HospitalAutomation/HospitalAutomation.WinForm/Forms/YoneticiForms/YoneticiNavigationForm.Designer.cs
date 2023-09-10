@@ -54,6 +54,7 @@
             btnPoliklinikler.Text = "Poliklinikler";
             btnPoliklinikler.TextAlign = ContentAlignment.BottomCenter;
             btnPoliklinikler.UseVisualStyleBackColor = false;
+            btnPoliklinikler.Click += btnPoliklinikler_Click;
             // 
             // label2
             // 
@@ -104,6 +105,7 @@
             btnYonetici.Text = "Yönetici";
             btnYonetici.TextAlign = ContentAlignment.BottomCenter;
             btnYonetici.UseVisualStyleBackColor = false;
+            btnYonetici.Click += btnYonetici_Click;
             // 
             // btnDoktorlar
             // 
@@ -121,6 +123,7 @@
             btnDoktorlar.Text = "Doktorlar";
             btnDoktorlar.TextAlign = ContentAlignment.BottomCenter;
             btnDoktorlar.UseVisualStyleBackColor = false;
+            btnDoktorlar.Click += btnDoktorlar_Click;
             // 
             // btnHastalar
             // 
@@ -138,6 +141,7 @@
             btnHastalar.Text = "Hastalar";
             btnHastalar.TextAlign = ContentAlignment.BottomCenter;
             btnHastalar.UseVisualStyleBackColor = false;
+            btnHastalar.Click += btnHastalar_Click;
             // 
             // YoneticiNavigationForm
             // 

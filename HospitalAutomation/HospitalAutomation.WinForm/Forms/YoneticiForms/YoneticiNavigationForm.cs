@@ -21,5 +21,29 @@ namespace HospitalAutomation.WinForm.Forms.YoneticiForms
         {
             this.Dispose();
         }
+
+        private void btnYonetici_Click(object sender, EventArgs e)
+        {
+            YoneticiBilgilerForm yoneticiBilgilerForm=new YoneticiBilgilerForm();
+            yoneticiBilgilerForm.ShowDialog();
+        }
+
+        private void btnHastalar_Click(object sender, EventArgs e)
+        {
+            YoneticiHastalarForm yoneticiHastalarForm=new YoneticiHastalarForm();
+            yoneticiHastalarForm.ShowDialog();
+        }
+
+        private void btnDoktorlar_Click(object sender, EventArgs e)
+        {
+            YoneticiDoktorlarForm yoneticiDoktorlarForm=new YoneticiDoktorlarForm();
+            yoneticiDoktorlarForm.ShowDialog();
+        }
+
+        private void btnPoliklinikler_Click(object sender, EventArgs e)
+        {
+            YoneticiPolikliniklerForm yoneticiPolikliniklerForm=new YoneticiPolikliniklerForm();
+            yoneticiPolikliniklerForm.ShowDialog();
+        }
     }
 }

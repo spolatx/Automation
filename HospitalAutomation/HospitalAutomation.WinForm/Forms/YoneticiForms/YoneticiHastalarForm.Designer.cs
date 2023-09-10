@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(YoneticiHastalarForm));
             btnYoneticiHastaExit = new Button();
+            label1 = new Label();
             SuspendLayout();
             // 
             // btnYoneticiHastaExit
@@ -46,11 +47,22 @@
             btnYoneticiHastaExit.UseVisualStyleBackColor = false;
             btnYoneticiHastaExit.Click += btnYoneticiHastaExit_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Century Gothic", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(295, 12);
+            label1.Name = "label1";
+            label1.Size = new Size(186, 32);
+            label1.TabIndex = 30;
+            label1.Text = "Hasta Bilgileri";
+            // 
             // YoneticiHastalarForm
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.White;
             ClientSize = new Size(800, 450);
+            Controls.Add(label1);
             Controls.Add(btnYoneticiHastaExit);
             Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
@@ -59,10 +71,12 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "YoneticiHastalarForm";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button btnYoneticiHastaExit;
+        private Label label1;
     }
 }
