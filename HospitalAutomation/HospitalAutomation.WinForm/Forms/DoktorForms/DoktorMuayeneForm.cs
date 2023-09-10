@@ -17,8 +17,19 @@ namespace HospitalAutomation.WinForm.Forms.DoktorForms
             InitializeComponent();
         }
 
+        public string tc, ad, soyad, cinsiyet, kangrubu, dogumyeri, dogumtarihi;
         private void DoktorMuayeneForm_Load(object sender, EventArgs e)
         {
+            mtxtDoktorMuayeneHastaTcKimlikNo.Text = tc;
+            txtDoktorMuayeneHastaAd.Text = ad;
+            txtDoktorMuayeneHastaSoyad.Text = soyad;
+            txtDoktorMuayeneKanGrubu.Text = kangrubu;
+            txtDoktorMuayeneDogumYeri.Text = dogumyeri;
+            txtDoktorMuayeneDogumTarihi.Text = dogumtarihi;
+            txtDoktorMuayeneCinsiyet.Text = cinsiyet;
+            txtDoktorMuayeneDogumYeri.Text = dogumyeri;
+
+
 
         }
 

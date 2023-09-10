@@ -19,7 +19,7 @@ namespace HospitalAutomation.WinForm.Forms.DoktorForms
         public DoktorBekleyenHastalarForm()
         {
             var dependencyContainer = new BusinessServiceRegistration();
-            hastalarService=dependencyContainer.GetHastalarServiceInstance();
+            hastalarService = dependencyContainer.GetHastalarServiceInstance();
             InitializeComponent();
         }
 
@@ -31,6 +31,13 @@ namespace HospitalAutomation.WinForm.Forms.DoktorForms
         private void btnBekleyenHastaSec_Click(object sender, EventArgs e)
         {
             DoktorMuayeneForm doktorMuayeneForm = new DoktorMuayeneForm();
+            doktorMuayeneForm.tc = dataGridView1.CurrentRow.Cells[3].Value.ToString();
+            doktorMuayeneForm.ad = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+            doktorMuayeneForm.soyad = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+            doktorMuayeneForm.cinsiyet = dataGridView1.CurrentRow.Cells[5].Value.ToString();
+            doktorMuayeneForm.kangrubu = dataGridView1.CurrentRow.Cells[6].Value.ToString();
+            doktorMuayeneForm.dogumyeri = dataGridView1.CurrentRow.Cells[7].Value.ToString();
+            doktorMuayeneForm.dogumtarihi = dataGridView1.CurrentRow.Cells[4].Value.ToString();
             doktorMuayeneForm.ShowDialog();
         }
 

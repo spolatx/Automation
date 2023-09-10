@@ -12,7 +12,7 @@ namespace HospitalAutomation.Data.Helpers
         public SqlConnection Connection => GetConnection();
         private SqlConnection GetConnection()
         {
-            return new SqlConnection(@"Data Source=DESKTOP-7GNS0OU\SQLEXPRESS; database=HOSPITAL; integrated security=true;");
+            return new SqlConnection(@"Data Source=DESKTOP-6SEC3HH\SQLEXPRESS; database=HOSPITALL; integrated security=true;");
         }
 
     }

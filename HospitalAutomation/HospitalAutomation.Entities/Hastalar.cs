@@ -35,5 +35,10 @@ namespace HospitalAutomation.Entities
         public int IlceId { get; set; }
 
         public int DogumYeriId { get; set; }
+
+        public string Aciklama { get; set; }
+        public string KanGrubu { get; set; }
+
+        public string DogumYeri { get; set; }
     }
 }
