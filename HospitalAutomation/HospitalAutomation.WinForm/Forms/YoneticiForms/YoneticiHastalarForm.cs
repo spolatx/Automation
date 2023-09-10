@@ -21,10 +21,5 @@ namespace HospitalAutomation.WinForm.Forms.YoneticiForms
         {
             this.Dispose();
         }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
     }
 }
