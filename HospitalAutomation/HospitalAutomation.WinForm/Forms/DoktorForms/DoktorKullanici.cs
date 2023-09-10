@@ -21,5 +21,10 @@ namespace HospitalAutomation.WinForm.Forms.DoktorForms
         {
 
         }
+
+        private void btnBekleyenHastaClose_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }

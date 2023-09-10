@@ -218,3 +218,6 @@ C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomat
 C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\HospitalAutomation.WinForm.Forms.DoktorForms.DoktorNavigationForm.resources
 C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\HospitalAutomation.WinForm.Forms.LaboratuvarForms.LaboratuvarForm.resources
 C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\HospitalAutomation.WinForm.Forms.LaboratuvarForms.LaboratuvarSonucForm.resources
+C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\HospitalAutomation.WinForm.Forms.DoktorForms.DoktorKullanici.resources
+C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\HospitalAutomation.WinForm.Forms.DoktorForms.DoktorRandevular.resources
+C:\Users\muratacar\Desktop\hastane\Automation\HospitalAutomation\HospitalAutomation.WinForm\obj\Debug\net6.0-windows\HospitalAutomation.WinForm.Forms.DoktorForms.TahlilSonuclari.resources

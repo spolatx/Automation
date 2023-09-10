@@ -50,7 +50,7 @@
             txtDoktorEmail = new TextBox();
             txtDoktorEskiParolaTekrar = new TextBox();
             label5 = new Label();
-            btnBekleyenHastaClose = new Button();
+            btnDoktorBilgileriClose = new Button();
             SuspendLayout();
             // 
             // btnDoktorBilgileriGuncelle
@@ -237,25 +237,26 @@
             label5.TabIndex = 114;
             label5.Text = "Yeni Parola Tekrar :";
             // 
-            // btnBekleyenHastaClose
+            // btnDoktorBilgileriClose
             // 
-            btnBekleyenHastaClose.BackColor = Color.Transparent;
-            btnBekleyenHastaClose.FlatAppearance.BorderSize = 0;
-            btnBekleyenHastaClose.FlatStyle = FlatStyle.Flat;
-            btnBekleyenHastaClose.ForeColor = Color.White;
-            btnBekleyenHastaClose.Image = (Image)resources.GetObject("btnBekleyenHastaClose.Image");
-            btnBekleyenHastaClose.Location = new Point(538, 12);
-            btnBekleyenHastaClose.Name = "btnBekleyenHastaClose";
-            btnBekleyenHastaClose.Size = new Size(30, 30);
-            btnBekleyenHastaClose.TabIndex = 116;
-            btnBekleyenHastaClose.UseVisualStyleBackColor = false;
+            btnDoktorBilgileriClose.BackColor = Color.Transparent;
+            btnDoktorBilgileriClose.FlatAppearance.BorderSize = 0;
+            btnDoktorBilgileriClose.FlatStyle = FlatStyle.Flat;
+            btnDoktorBilgileriClose.ForeColor = Color.White;
+            btnDoktorBilgileriClose.Image = (Image)resources.GetObject("btnDoktorBilgileriClose.Image");
+            btnDoktorBilgileriClose.Location = new Point(538, 12);
+            btnDoktorBilgileriClose.Name = "btnDoktorBilgileriClose";
+            btnDoktorBilgileriClose.Size = new Size(30, 30);
+            btnDoktorBilgileriClose.TabIndex = 116;
+            btnDoktorBilgileriClose.UseVisualStyleBackColor = false;
+            btnDoktorBilgileriClose.Click += btnBekleyenHastaClose_Click;
             // 
             // DoktorKullanici
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.White;
             ClientSize = new Size(580, 497);
-            Controls.Add(btnBekleyenHastaClose);
+            Controls.Add(btnDoktorBilgileriClose);
             Controls.Add(txtDoktorEskiParolaTekrar);
             Controls.Add(label5);
             Controls.Add(txtDoktoryYeniParola);
@@ -310,6 +311,6 @@
         private TextBox txtDoktorEmail;
         private TextBox txtDoktorEskiParolaTekrar;
         private Label label5;
-        private Button btnBekleyenHastaClose;
+        private Button btnDoktorBilgileriClose;
     }
 }
